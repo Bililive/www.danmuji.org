@@ -1,0 +1,67 @@
+<html><head>
+    {% include head.html %}
+	<title>{{ page.title | escape }} - {{ site.title | escape}}</title>
+    <script>var dlurl = '{{ page.plugin_dllink }}';</script>
+</head>
+<body class="w3-theme-l5">
+    <div id="main-container">
+    <!-- Navbar -->
+    {% include navbar.html %}
+    <!-- Page Container -->
+    <div class="w3-container w3-content" id="page-container" style="max-width:1400px;margin-top:80px;">
+        <!-- The Grid -->
+        <div class="w3-row">
+            <!-- Left Column -->
+            <div class="w3-col m3">
+                <!-- Profile -->
+                <div class="w3-card-2 w3-round w3-white">
+                    <div class="w3-container">
+                        <h4 class="w3-center">插件信息</h4><hr>
+                        <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>作者：{{ page.plugin_auther }}</p>
+                        <p><i class="fa fa-info fa-fw w3-margin-right w3-text-theme"></i>插件名：{{ page.plugin_name }}</p>
+                        <p><i class="fa fa-code-fork fa-fw w3-margin-right w3-text-theme"></i>版本号：{{ page.plugin_version }}</p>
+                        <p><i class="fa fa-calendar fa-fw w3-margin-right w3-text-theme"></i>更新日期：{{ page.plugin_update }}</p>{% if page.plugin_dlnote %}
+                        <p><i class="fa fa-exclamation-triangle fa-fw w3-margin-right w3-text-theme"></i>下载说明：{{ page.plugin_dlnote }}</p>{% endif %}
+                        <p><button class="w3-btn w3-btn-block w3-theme-l4" onclick="Download()">下载</button></p>
+                    </div>
+                </div><br>
+            <!-- End Left Column -->
+			</div>
+<!-- Middle Column -->
+<div class="w3-col m7">
+    <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
+    <h4 style="margin-left:20px">{{ page.plugin_name }}</h4><hr class="w3-clear">
+    <p class="w3-row-padding">{{ content | markdownify }}</p></div>
+	{% if page.auther %}<p class="w3-right w3-opacity">页面编辑：{{ page.auther }}</p>{% endif %}
+<!-- End Middle Column -->
+</div>
+            <!-- End Grid -->
+			</div>
+        <!-- End Page Container -->
+		</div><br>
+        <!-- Footer -->
+		{% include footer.html %}
+	</div>
+	
+<script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+function Download() {
+    var win = window.open(dlurl, '_blank');
+    if (win) {
+        //Browser has allowed it to be opened
+        //win.focus();
+    } else {
+        //Browser has blocked it
+        alert('浏览器阻止了弹出窗口\n下载地址：' + dlurl);
+    }
+}
+</script>
+</body></html>

@@ -1,0 +1,7 @@
+- name: 弹幕姬下载
+  link: https://soft.ceve-market.org/bilibili_dm/setup.exe
+  icon: fa-download
+
+- name: 插件目录
+  link: /plugins
+  icon: fa-globe
