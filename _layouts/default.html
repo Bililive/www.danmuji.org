@@ -1,19 +1,11 @@
 <html><head>
 {% include head.html %}
-<title>{{ site.title }}</title>
-</head>
-  <body>
-
-    {% include navbar.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+</head><body>
+<div id="main-container">
+{% include navbar.html %}
+<div class="w3-content" id="page-container" style="max-width:1400px;margin-top:80px;">
+{{ content }}
+</div>
+{% include footer.html %}</div>
+</body></html>
