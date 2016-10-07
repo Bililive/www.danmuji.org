@@ -3,9 +3,13 @@
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 </head><body>
 <div id="main-container">
+<!-- Navbar - Start -->
 {% include navbar.html %}
-<div class="w3-content" id="page-container" style="max-width:1400px;margin-top:80px;">
+<!-- Navbar - End -->
+<!-- Content - Start -->
 {{ content }}
-</div>
-{% include footer.html %}</div>
-</body></html>
+<!-- Content - End -->
+<!-- Footer - Start -->
+{% include footer.html %}
+<!-- Footer - End -->
+</div></body></html>

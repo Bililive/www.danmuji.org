@@ -4,4 +4,5 @@
 #footer-container{position:absolute;bottom:0;width:100%;}
 .icon-with-text{margin-right:10;}
 .fork-bar {position:fixed;z-index:999;width:150px;text-align:center;transform:translate3d(-110px,15px,0)rotate(45deg);}
-.plugin-page-card a{text-decoration: none;}
+.plugin-page-card a{text-decoration:none;}
+.index-icon{font-size:120px!important;}
