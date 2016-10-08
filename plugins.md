@@ -3,7 +3,7 @@ layout: default
 title: 插件目录 - 弹幕姬
 permalink: /plugins/
 ---
-<div class="w3-content" id="page-container" style="max-width:1400px;margin-top:80px;">
+<div class="w3-content" id="page-container" style="max-width:1400px;margin-top:20px;">
 <!--<li><h3><a class="post-link" href="{{ pl.url }}">{{ pl.title | escape }} | {{ pl.plugin_desc | escape }}</a></h3></li>-->
 <!-- 这坨换行。。强迫症要死了。。输出整齐与代码整齐不可兼得 -->
 {% assign times = 0 %}{% for pl in site.plugin %}
@@ -16,4 +16,4 @@ permalink: /plugins/
 </div></a></div><!-- 插件信息结束 -->
 {% if times == 4 %}<!-- if(times==4) 输出一行的结束 --></div>{% assign times = 0 %}<!-- 重设times=0 -->{% endif %}{% endfor %}
 {% if times != 0 %}<!-- 需要多输出一个</div> --></div>{% endif %}
-</div>
+<br></div>
