@@ -2,7 +2,7 @@
 <div><ul class="w3-navbar w3-theme-d2 w3-left-align w3-large">
 <li class="w3-hide-medium w3-hide-large w3-opennav w3-right"><a class="w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a></li>
 <li><a href="/" class="w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>{{ site.title }}</a></li>
-{% for bar in site.data.navbar %}<li class="w3-hide-small"><a href="{{ bar.link }}" class="w3-padding-large w3-hover-white" title="{{ bar.name }}"><i class="fa {{ bar.icon }} icon-with-text"></i>{{ bar.name }}</a></li>{% endfor %}
+{% for bar in site.data.navbar %}<li class="w3-hide-small"><a href="{{ bar.link }}"{% if bar.id %} id="{{bar.id}}"{% endif %} class="w3-padding-large w3-hover-white" title="{{ bar.name }}"><i class="fa {{ bar.icon }} icon-with-text"></i>{{ bar.name }}</a></li>{% endfor %}
 <li class="w3-hide-small w3-right"><a href="https://coding.net/u/G_monitor/p/Bililive_dm_Website/git" target="_blank" class="fork-bar w3-theme-d5">Fork</a></li>
 </ul></div>
 <!-- Navbar on small screens -->
@@ -13,5 +13,6 @@
 <script>// Used to toggle the menu on smaller screens when clicking on the menu button
 function openNav(){var x = document.getElementById("navDemo");
 if (x.className.indexOf("w3-show") == -1){x.className += " w3-show";}
-else{x.className = x.className.replace(" w3-show", "");}}</script>
+else{x.className = x.className.replace(" w3-show", "");}}
+document.getElementById("navbar-dldmj").onclick = function(){_czc.push(﻿['_trackEvent','导航栏','下载弹幕姬',,,'navbar-dldmj']);};</script>
 </div>

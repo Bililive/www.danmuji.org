@@ -1,7 +1,7 @@
 <html><head>
     {% include head.html %}
 	<title>{{ page.title | escape }} - {{ site.title | escape}}</title>
-    <script>var dlurl = '{{ page.plugin_dllink }}';</script>
+    <script>var plugin_download_url='{{ page.plugin_dllink }}';var plugin_id='{{ page.relative_path | replace: "_plugin/", "" | replace: ".md", ""}}';</script>
 </head>
 <body class="w3-theme-l5">
     <div id="main-container">
@@ -47,14 +47,17 @@
 	
 <script>
 function Download() {
-    var win = window.open(dlurl, '_blank');
+    var win = window.open(plugin_download_url, '_blank');
     if (win) {
+        var tongji_action = "下载弹出成功";
         //Browser has allowed it to be opened
         //win.focus();
     } else {
         //Browser has blocked it
-        alert('浏览器阻止了弹出窗口\n下载地址：' + dlurl);
+        var tongji_action = "下载弹出失败";
+        alert('浏览器阻止了弹出窗口\n下载地址：' + plugin_download_url);
     }
+    _czc.push(﻿["_trackEvent","插件介绍页",tongji_action,plugin_id]);
 }
 </script>
 </body></html>
