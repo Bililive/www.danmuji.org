@@ -26,12 +26,20 @@ collections:
   plugin:
     output: true
     permalink: /plugins/:title
+  apiv1:
+    output: true
+    permalink: /api/v1/:title
 defaults:
   - scope:
       path: ""
       type: plugin
     values:
       layout: plugin
+  - scope:
+      path: ""
+      type: apiv1
+    values:
+      layout: apiv1
 # Build settings
 markdown: kramdown
 #theme: minima
