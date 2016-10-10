@@ -1,16 +1,16 @@
 ---
-title: 测试插件
+title: 示例插件
 auther: 宅急送队长
 plugin_author: 宅急送队长
-plugin_name: 插件名字测试
-plugin_desc: 这里是插件的一句话说明
-plugin_version: 1.2.4.5.0
-plugin_update: 2016.10.5
-plugin_dllink: http://test.com/test.zip
-#plugin_dlnote: 下载说明
+plugin_name: 示例插件
+plugin_desc: 这只是一个插件示例
+plugin_version: 1.0.0
+plugin_update: 2016.10.11
+plugin_dllink: #
+#plugin_dlnote: 并不需要下载说明
 ---
 
-# 一个#
+# 这是一个插件页面示例！！
 
 测试
 
@@ -24,7 +24,7 @@ plugin_dllink: http://test.com/test.zip
 
 ###### 六个
 
-[链接](/)
+[这是一个链接](/)
 
 - 这个
 - 二个
@@ -41,7 +41,7 @@ _斜体字斜体字斜体字斜体字_
 **加粗字加粗字加粗字加粗字**  
 __加粗字加粗字加粗字加粗字__  
 
-![图片测试1](https://img.cdn.lwl12.com/images/2016/02/14/11866259963a70bbc50b9b9f63e86345.md.png)
+![图片测试1](https://img.cdn.lwl12.com/images/2016/02/14/11866259963a70bbc50b9b9f63e86345.png "图片啦啦啦")
 
 
 ### 弹幕姬部分源码：
