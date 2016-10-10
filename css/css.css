@@ -7,4 +7,5 @@
 .plugin-page-card a{text-decoration:none;}
 .index-icon{font-size:120px!important;}
 .highlighter-rouge .highlight{overflow: auto;}
+code {border:1px solid #bbb;font:14px/1.8em Menlo,Consolas,"Courier New",Courier,"Liberation Mono",monospace;background-color:#f8f8f8;border-radius:5px;max-width:100%;display:inline-block;overflow:auto;vertical-align:middle;padding:0 0.5em;white-space:pre;}
 img {max-width: 100%;max-height:100%;}
