@@ -11,6 +11,7 @@
 ## Fork修改说明
 
 ### <a name="structure"></a>目录结构
+
 ```sh
 .
 ├── _apiv1 -------------------  api相关文件
@@ -54,6 +55,7 @@ markdown中的标题（若干个#开头）会生成一个带ID的```hX```标签�
 目前添加一个插件需要添加两个md文件。一个在```_plugin```文件夹，放置插件的信息以及介绍。另一个在```_apiv1```文件夹，用于网站api。
 
 ```_plugin``` 文件夹中的文件格式如下：
+
 ```
 ---
 title: 页面标题，一般情况下与插件名字一致
@@ -69,15 +71,18 @@ plugin_dlnote: 下载说明，可选，不需要时在最前加“#”即可
 ---
 Markdown格式的插件介绍正文
 ```
+
 文件名将为插件ID在API中使用  
 插件版本号请使用支持 [System.Version](https://msdn.microsoft.com/zh-cn/library/system.version(v=vs.110).aspx) 的格式  
 更新日期请使用 年.月.日 的格式，比如 2016.10.1
 
 ```_apiv1``` 文件夹中需要添加一个同名文件，内容：
+
 ```
 ---
 ---
 ```
+
 因为Jekyll的限制，不使用插件的话，同一个源文件不能输出两个文件，所以需要用这种方法实现api
 
 <br/>
@@ -88,6 +93,7 @@ Markdown格式的插件介绍正文
 ### <a name="pluginlist"></a>插件列表
 
 数组格式：[/api/v1/all.list](/api/v1/all.list)
+
 ```json
 [
   {
@@ -114,6 +120,7 @@ Markdown格式的插件介绍正文
 ```
 
 Map格式：[/api/v1/all.map](/api/v1/all.map)
+
 ```json
 {
   "example": {
@@ -142,6 +149,7 @@ Map格式：[/api/v1/all.map](/api/v1/all.map)
 ### <a name="plugininfo"></a>单个插件信息
 
 示例：[/api/v1/插件ID](/api/v1/example)
+
 ```json
 {
   "id": "example",
