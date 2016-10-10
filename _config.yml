@@ -29,6 +29,9 @@ collections:
   apiv1:
     output: true
     permalink: /api/v1/:title
+  pages:
+    output: true
+    permalink: /:title/
 defaults:
   - scope:
       path: ""
@@ -40,6 +43,11 @@ defaults:
       type: apiv1
     values:
       layout: apiv1
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
 # Build settings
 markdown: kramdown
 #theme: minima

@@ -6,3 +6,8 @@
 - name: 插件目录
   link: /plugins
   icon: fa-globe
+
+- name: 说明&API
+  link: /docs
+  icon: fa-book
+  
