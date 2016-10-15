@@ -13,7 +13,9 @@ plugin_dllink: https://www.danmuji.cn/wp-content/uploads/2016/10/点歌姬1.2.zi
 视频教程:<br/>
 [弹幕机的使用教程](http://www.bilibili.com/video/av6525329/)<br/>
 [点歌姬的使用教程](http://www.bilibili.com/video/av6465937/)<br/>
+
 ## 简单的说明
+
 ### 注：这个说明中的所有“弹幕点歌”是指旧的插件，“点歌姬”指这个新的插件
 
 压缩包里一共三个文件，文件列表：
