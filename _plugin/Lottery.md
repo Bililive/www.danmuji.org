@@ -10,6 +10,7 @@ plugin_dllink: /zip/Lottery/DMPlugin_Lottery.zip
 #plugin_dlnote: 并不需要下载说明
 ---
 ## 一个简单到我觉得都不需要说明的小插件
+
 ### 界面样子：
 
 ![界面样子](/img/Lottery/GUI.png "界面样子")
