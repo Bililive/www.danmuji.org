@@ -6,14 +6,14 @@ plugin_name: 弹幕抽奖
 plugin_desc: 从弹幕中随机抽奖
 plugin_version: 1.0
 plugin_update: 2016.10.6
-plugin_dllink: /zip/Lottery/DMPlugin_Lottery.zip
+plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 #plugin_dlnote: 并不需要下载说明
 ---
 ## 一个简单到我觉得都不需要说明的小插件
 
 ### 界面样子：
 
-![界面样子](/img/Lottery/GUI.png "界面样子")
+![界面样子](/resource/Lottery/GUI.png "界面样子")
 
 ### 使用流程：
 

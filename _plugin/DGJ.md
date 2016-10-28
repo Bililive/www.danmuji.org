@@ -6,7 +6,7 @@ plugin_name: 点歌姬
 plugin_desc: 用弹幕来播放歌曲吧
 plugin_version: 1.3
 plugin_update: 2016.10.20
-plugin_dllink: /zip/DGJ/DGJ1.3.zip
+plugin_dllink: /resource/DGJ/DGJ1.3.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 作者的[直播间15253](http://live.bilibili.com/15253)
@@ -28,7 +28,7 @@ plugin_dlnote: 请不要二次上传到其他网站谢谢
 安装弹幕姬之后，将插件文件放到插件文件夹中，重启弹幕姬。  
 插件文件夹位置：```文档\弹幕姬\Plugins```（Win7中，“文档”叫做“我的文档”）
 
-![文档的位置](/img/DGJ/docu.png "文档的位置")
+![文档的位置](/resourceresource/DGJ/docu.png "文档的位置")
 
 如果安装插件后提示“同步初始化出错”类似字样，请先尝试安装.NET Framework 4.6.2，压缩包内已附带一份在线安装包。  
 如安装后依旧出错，或有其他错误。请将桌面上生成的错误日志发给插件作者，谢谢~
@@ -52,7 +52,7 @@ plugin_dlnote: 请不要二次上传到其他网站谢谢
 
 插件需要先启用之后才能响应弹幕操作，管理插件不需要先启用插件
 
-![弹幕姬插件面板](/img/DGJ/admin.png "弹幕姬插件面板")
+![弹幕姬插件面板](/resource/DGJ/admin.png "弹幕姬插件面板")
 
 ### <a name="usage_cmd"></a>弹幕命令
 
@@ -111,7 +111,7 @@ OBS Classic添加来源方法：
 
 我的OBS设定的样子：
 
-![点歌输出信息](/img/DGJ/obs.png "点歌输出信息")
+![点歌输出信息](/resource/DGJ/obs.png "点歌输出信息")
 
 ## <a name="dev"></a>面向开发者-开发歌曲搜索模块
 
