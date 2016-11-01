@@ -5,7 +5,7 @@ plugin_author: 宅急送队长
 plugin_name: 点歌姬
 plugin_desc: 用弹幕来播放歌曲吧
 plugin_version: 1.4.1
-plugin_update: 2016.11.2
+plugin_update: 2016.11.02
 plugin_dllink: /resource/DGJ/DGJ1.4.1.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
