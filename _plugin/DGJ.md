@@ -4,15 +4,25 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 点歌姬
 plugin_desc: 用弹幕来播放歌曲吧
-plugin_version: 1.4
-plugin_update: 2016.10.28
-plugin_dllink: /resource/DGJ/DGJ1.4.zip
+plugin_version: 1.4.1
+plugin_update: 2016.11.2
+plugin_dllink: /resource/DGJ/DGJ1.4.1.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 作者的[直播间15253](http://live.bilibili.com/15253)
 有问题找不到作者时可以通过B站私信联系我
 
 “点歌姬”和“B站弹幕姬”不依赖于任何直播软件，是完全独立的独立软件。所以不要问“支持不支持OBS”“支持不支持直播姬”这类问题了  
+
+### 近期更新内容：
+
+```
+正式版1.4.1
+这是一个可选更新的问题修复更新
+修复部分人同时打开QQ音乐和弹幕姬会导致弹幕姬崩溃问题
+彻底修复了切换输出方式/刷新设备处可能导致崩溃的问题
+```  
+
 
 1. [安装插件相关](#install)
 2. [基本使用](#usage)
