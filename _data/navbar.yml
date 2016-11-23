@@ -7,10 +7,6 @@
   link: /plugins
   icon: fa-list
 
-- name: 说明&API
-  link: /docs
-  icon: fa-book
-
 - name: 直播简介生成器
   link: http://blive.cabbagelol.net
   icon: fa-globe
