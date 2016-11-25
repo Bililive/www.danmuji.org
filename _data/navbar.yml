@@ -1,7 +1,7 @@
-- name: 下载弹幕姬
-  id: navbar-dldmj
-  link: https://soft.ceve-market.org/bilibili_dm/setup.exe
-  icon: fa-download
+#- name: 下载弹幕姬
+#  id: navbar-dldmj
+#  link: https://soft.ceve-market.org/bilibili_dm/setup.exe
+#  icon: fa-download
 
 - name: 插件目录
   link: /plugins
