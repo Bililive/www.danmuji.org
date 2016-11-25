@@ -1,33 +1,110 @@
 ---
-layout: default
-div-style: "max-width: 100%;"
+layout: null
 ---
-<div class="w3-container w3-theme-d4 w3-center w3-padding-128">
-  <h1 class="w3-margin w3-jumbo">弹 幕 姬</h1>
-  <p class="w3-xlarge">一个奇妙B站直播間彈幕工具</p>
-  <a href="https://soft.ceve-market.org/bilibili_dm/setup.exe" onclick="_czc.push(﻿['_trackEvent','首页','下载弹幕姬']);" class="w3-btn w3-padding-16 w3-large w3-margin-top" title="下载弹幕姬"><i class="fa fa-download icon-with-text"></i>开始使用</a>
-</div>
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>显示美观</h1>
-      <h5 class="w3-padding-32">平滑的显示过渡，侧边栏模式和弹幕模式</h5>
+<html><head>
+{% include head.html %}
+<title>B站弹幕姬</title>
+</head>
+<body>
+<div id="main-container">
+<!-- Navbar - Start -->
+{% include navbar.html %}
+<!-- Navbar - End -->
+<!-- Content - Start -->
+<div class="w3-content" id="page-container" style="max-width: 100%;">
+<!--首页从www.snipaste.com的首页修改而来，偷个懒（-->
+    <div class="jumbotron w3-theme-d4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 vcenter">
+                    <h1>B站弹幕姬</h1>
+                    <div class="lead">
+                        <h4>开源、简洁的B站直播弹幕工具</h4>
+                    </div>
+                    <br>
+                    <div id="download-buttons">
+                        <p class="text-center">最新版本：1.0.1.120 (2016.11.24)</p>
+                        <h4>Windows 7 / 8 / 10</h4>
+                        <a class="btn btn-default btn-block" rel="nofollow" href="https://soft.ceve-market.org/bilibili_dm/setup.exe" onclick="_czc.push(['_trackEvent','首页','下载弹幕姬']);" target="_blank" role="button"><i class="fa fa-download icon-with-text"></i>下载安装包</a>
+                    </div>
+                    <br>
+                </div><div class="col-md-9 vcenter">
+                    <img class="img-responsive" src="/pics/1.png">
+                </div>
+            </div>
+        </div>
     </div>
+    <div style="padding-top: 25px;padding-bottom: 30px;">
+        <div id="intro-container" class="container">
+            <h2 style="text-align: center;"></h2>
+            <div class="row">
+                <div class="col-sm-8">
+                    <img class="img-responsive" src="/pics/2.png">
+                </div>
+                <div class="col-sm-4">
+                    <h3>流畅的弹幕动画</h3>
+                   <ul>
+                       <li>侧边栏弹幕渐入渐出，不再看错行</li>
+                       <li>高效流畅的桌面弹幕（仅Win8及以上系统）</li>
+                       <li>可设置的动画时间</li>
+                   </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>稳定的弹幕处理</h3>
+                    <ul>
+                        <li>多次优化弹幕处理逻辑</li>
+                        <li>再多的弹幕也保证一个不丢<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></li>
+                        <li>较低的CPU占用</li>
+                        <li>被断开连接自动重连</li>
+                        <li>原官方钦定弹幕工具<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></li>
+                    </ul>
+                </div>
 
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor index-icon w3-padding-32 w3-text-theme"></i>
+                <div class="col-sm-8">
+                    <img class="img-responsive" src="/pics/3.png">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-8">
+                    <img class="img-responsive" src="/pics/4.png">
+                </div>
+                <div class="col-sm-4">
+                    <h3>其他拓展功能</h3>
+                    <ul>
+                        <li>统计弹幕总数、参与互动人数</li>
+                        <li>保存日志到文件</li>
+                        <li>礼物投喂统计</li>
+                        <li>插件系统<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br><hr>
+        <section style="font-size:0.8em;">
+            <div class="container">
+                <div id="cite_note-1">[1]:
+                    <span><b><a href="#cite_ref-1">^</a></b></span>
+                    <span>不包含因为弹幕包含关键词被服务器过滤的弹幕。</span>
+                </div>
+                <div id="cite_note-2">[2]:
+                    <span><b><a href="#cite_ref-2">^</a></b></span>
+                    <span>直播姬开发之前，弹幕姬是作为半官方工具在直播首页提供下载的。现在依旧可以在直播姬下载页见到“弹幕姬”的踪影。</span>
+                </div>
+                <div id="cite_note-3">[3]:
+                    <span><b><a href="#cite_ref-3">^</a></b></span>
+                    <span>弹幕姬插件开发SDK<a rel="nofollow" target="_blank" href="https://soft.ceve-market.org/bilibili_dm/sdk.7z"> [下载] </a>（.NET4，最后更新：2016.11.24）</span>
+                </div>
+            </div>
+        </section>
     </div>
-  </div>
-</div>
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee index-icon w3-padding-32 w3-text-theme w3-margin-right"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1>MDZZ</h1>
-      <h5 class="w3-padding-32">首页先放这里回头再写，反正算是能看了→_→</h5>
-    </div>
-  </div>
-</div><br>
+<br><br></div>
+<!-- Content - End -->
+<!-- Footer - Start -->
+{% include footer.html %}
+<!-- Footer - End -->
+</div></body></html>
