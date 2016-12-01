@@ -6,7 +6,7 @@ plugin_name: 点歌姬
 plugin_desc: 用弹幕来播放歌曲吧
 plugin_version: 1.5.0
 plugin_update: 2016.12.01
-plugin_dllink: https://www.danmuji.cn/resource/DGJ/DGJ1.5.0.zip
+plugin_dllink: /resource/DGJ/DGJ1.5.0.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 作者的[直播间15253](http://live.bilibili.com/15253)
