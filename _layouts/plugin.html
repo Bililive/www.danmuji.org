@@ -15,12 +15,12 @@
             <div class="w3-col m3">
                 <!-- Profile -->
                 <div class="w3-card-2 w3-round w3-white">
-                    <div class="w3-container">
+                    <div class="w3-container" itemscope itemtype="http://schema.org/SoftwareApplication">
                         <h4 class="w3-center">插件信息</h4><hr>
-                        <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>作者：{{ page.plugin_author }}</p>
-                        <p><i class="fa fa-info fa-fw w3-margin-right w3-text-theme"></i>插件名：{{ page.plugin_name }}</p>
-                        <p><i class="fa fa-code-fork fa-fw w3-margin-right w3-text-theme"></i>版本号：{{ page.plugin_version }}</p>
-                        <p><i class="fa fa-calendar fa-fw w3-margin-right w3-text-theme"></i>更新日期：{{ page.plugin_update }}</p>{% if page.plugin_dlnote %}
+                        <p itemprop="author" itemscope itemtype="http://schema.org/Person"><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>作者：<span id="author" itemprop="name">{{ page.plugin_author }}</span></p>
+                        <p><i class="fa fa-info fa-fw w3-margin-right w3-text-theme"></i>插件名：<span id="plugin_name" itemprop="name">{{ page.plugin_name }}</span></p>
+                        <p><i class="fa fa-code-fork fa-fw w3-margin-right w3-text-theme"></i>版本号：<span id="plugin_version" itemprop="softwareVersion">{{ page.plugin_version }}</span></p>
+                        <p><i class="fa fa-calendar fa-fw w3-margin-right w3-text-theme"></i>更新日期：<span id="plugin_update" itemprop="dateModified">{{ page.plugin_update }}</span></p>{% if page.plugin_dlnote %}
                         <p><i class="fa fa-exclamation-triangle fa-fw w3-margin-right w3-text-theme"></i>下载说明：{{ page.plugin_dlnote }}</p>{% endif %}
                         <p><button class="w3-btn w3-btn-block w3-theme-l4" onclick="Download()">下载</button></p>
                     </div>
