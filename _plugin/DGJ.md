@@ -6,7 +6,7 @@ plugin_name: 点歌姬
 plugin_desc: 用弹幕来播放歌曲吧
 plugin_version: 1.5.1
 plugin_update: 2016.12.06
-plugin_dllink: /resource/DGJ/DGJ1.5.1.zip
+plugin_dllink: /resource/DGJ/DGJ1.5.1b.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 作者的[直播间15253](http://live.bilibili.com/15253)
@@ -17,7 +17,11 @@ plugin_dlnote: 请不要二次上传到其他网站谢谢
 ### 近期更新内容：
 
 ```
-1.5.1
+2016.12.20
+主插件没有修改，歌曲搜索模块“LWLAPI”更新至0.4
+因为LWL的锅，旧版本的搜索模块不能使用，需要替换为新版本
+
+2016.12.06 版本：1.5.1
 *修复自定义文本输出“歌曲上限”无效的问题
 *修复自定义文本输出中有空行的问题
 ```  
