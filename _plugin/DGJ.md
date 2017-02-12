@@ -12,7 +12,21 @@ plugin_dlnote: 请不要二次上传到其他网站谢谢
 作者的[直播间15253](http://live.bilibili.com/15253)
 有问题找不到作者时可以通过B站私信联系我
 
-“点歌姬”和“B站弹幕姬”不依赖于任何直播软件，是完全独立的独立软件。所以不要问“支持不支持OBS”“支持不支持直播姬”这类问题了  
+“点歌姬”和“B站弹幕姬”是独立工作的程序，支持和所有直播软件同时使用。
+
+<div id="DGJ360Tip"></div>
+<script>
+window.is360=function(){var n=!1,r=["31.0.1650.63","45.0.2454.101","50.0.2661.102"];return navigator.userAgent.split(" ").forEach(function(t){t.startsWith("Chrome/")&&r.forEach(function(r){t=="Chrome/"+r&&(n=!0)})}),n};
+(function(){
+var tiphtml = `
+<div class="highlighter-rouge"><pre class="highlight"><code><span style="font-weight: bold;color: #e1715b;font-size: 20px;">检测到你使用的是360浏览器</span>
+<span style="font-size: 18px;font-weight: bold;">提醒：</span>有用户反馈，360杀毒有时会在点歌姬下载歌曲时认为是下载病毒
+并在没有提醒的情况下静默关闭弹幕姬
+请在360杀毒中给弹幕姬添加白名单、或者使用其他杀毒软件</code></pre></div>
+`;
+if(is360()){document.getElementById('DGJ360Tip').innerHTML = tiphtml;}
+})();
+</script>
 
 ### 近期更新内容：
 

@@ -1,4 +1,5 @@
 ---
+hide: true
 title: 说明&API - 弹幕姬
 div-style: "margin-top:20px;"
 ---
