@@ -5,8 +5,8 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
 plugin_desc: 在弹幕姬中快速发送弹幕
-plugin_version: 1.0.0
-plugin_update: 2017.02.21
+plugin_version: 1.0.1
+plugin_update: 2017.02.23
 plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
