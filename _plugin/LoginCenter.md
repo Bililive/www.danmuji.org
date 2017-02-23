@@ -5,8 +5,8 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 登录中心
 plugin_desc: 登录B站账号供其他插件使用
-plugin_version: 0.1.0
-plugin_update: 2017.02.21
+plugin_version: 1.0.0
+plugin_update: 2017.02.23
 plugin_dllink: /resource/LoginCenter/LoginCenter.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
