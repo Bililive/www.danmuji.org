@@ -4,7 +4,7 @@ title: 弹幕发送
 auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
-plugin_desc: 登录B站账号供其他插件使用
+plugin_desc: 在弹幕姬中快速发送弹幕
 plugin_version: 1.0.0
 plugin_update: 2017.02.21
 plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
@@ -13,7 +13,7 @@ plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 
 <img class="shadow" src="https://www.danmuji.cn/resource/SendDanmaku/1.png" alt="插件界面" />
 
-**此插件需要安装 “登录中心” 插件才能使用**
+**此插件需要安装 “[登录中心](https://www.danmuji.cn/plugins/LoginCenter)” 插件才能使用**
 
 <br/>
 
