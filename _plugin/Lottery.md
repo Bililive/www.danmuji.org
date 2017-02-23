@@ -13,7 +13,9 @@ plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 
 ### 界面样子：
 
-![界面样子](/resource/Lottery/GUI.png "界面样子")
+<img class="shadow" src="https://www.danmuji.cn/resource/Lottery/GUI.png" alt="界面样子"  />
+
+<br/>
 
 ### 使用流程：
 
@@ -21,7 +23,9 @@ plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 2. 设置是否需要佩戴勋章等设定
 3. 启用插件
 4. 等待观众刷弹幕
-5. 点击“开始抽奖”按钮
+5. 点击 “开始抽奖” 按钮
+
+<br/>
 
 ### 说明：
 
@@ -30,8 +34,10 @@ plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 - 如果有人发送了多条弹幕，有概率抽中多次一个人的不同弹幕
 - 同一条弹幕不可能抽中两次
 
+<br/>
+
 ### 插件源码：
-按WTFPL协议开源 <del>在下载页贴代码很装逼</del>
+按 WTFPL 协议开源 <del>在下载页贴代码很装逼</del>
 
 #### Main.cs
 
