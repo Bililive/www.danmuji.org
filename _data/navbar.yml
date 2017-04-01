@@ -7,6 +7,11 @@
   link: /plugins
   icon: fa-list
 
+- name: 弹幕姬讨论区
+  link: http://f.danmuji.cn
+  icon: fa-comments-o
+  target: _blank
+  
 - name: 直播简介生成器
   link: http://blive.cabbagelol.net
   icon: fa-globe
