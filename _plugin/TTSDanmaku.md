@@ -9,6 +9,7 @@ plugin_update: 2017.04.09
 plugin_dllink: /resource/TTSDanamku/TTSDanmaku.zip
 plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 ---
+
 有问题或是有建议可以 [在作者的 Blog](https://blog.elepover.com/quoteLeft.html) 通过评论提交。
 
 安装方法
