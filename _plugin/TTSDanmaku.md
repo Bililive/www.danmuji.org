@@ -1,4 +1,6 @@
 ---
+hide: true
+# 取消隐藏请注释hide
 title: TTSDanmaku
 auther: Elepover
 plugin_author: Elepover
