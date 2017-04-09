@@ -6,7 +6,7 @@ plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
 plugin_version: 1.0.3
 plugin_update: 2017.04.09
-plugin_dllink: /resource/TTSDanamku/TTSDanmaku.zip
+plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
 plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 ---
 
