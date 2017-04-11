@@ -17,9 +17,15 @@ layout: null
 <link rel="stylesheet" href="/css/notie.css">
 <link rel="stylesheet" href="/css/highlight.css">
 <style>html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.jumbotron a{text-decoration: none;}</style>
+<script type="text/javascript" async src='https://www.google-analytics.com/analytics.js'></script>
 <script type="text/javascript" async defer src="//stats.cdn.lwl12.com/piwik.js"></script>
 <script type="text/javascript" async defer src="//s4.cnzz.com/z_stat.php?id={{ site.cnzz }}&web_id={{ site.cnzz }}"></script>
 <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-71912418-2', 'auto');
+    ga('send', 'pageview');
+	// 过渡CNZZ到Google Analytics
+	
 	var _czc = _czc || []; _czc.push(["_setAccount", "{{ site.cnzz }}"]);
 	var _paq = _paq || []; _paq.push(['setSiteId', '2']);
 	_paq.push(['trackPageView']); _paq.push(['enableLinkTracking']);
