@@ -13,11 +13,12 @@ plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 
 <img class="shadow" src="https://www.danmuji.cn/resource/SendDanmaku/1.png" alt="插件界面" />
 
-**此插件需要安装 “[登录中心](https://www.danmuji.cn/plugins/LoginCenter)” 插件才能使用**
-
 <br/>
 
 ## 安装插件
+
+**此插件需要安装 “[登录中心](https://www.danmuji.cn/plugins/LoginCenter)” 插件才能使用**
+安装插件后，在“登录中心”中登录账号
 
 下载插件后解压压缩包，把 `SendDanmaku.dll` 放到插件文件夹。  
 插件文件夹在 `文档\弹幕姬\Plugins` （Win7中，“文档” 叫做 “我的文档”）  
