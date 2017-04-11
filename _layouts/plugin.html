@@ -57,6 +57,7 @@ function Download() {
         var tongji_action = "下载弹出失败";
         alert('浏览器阻止了弹出窗口\n下载地址：' + plugin_download_url);
     }
+	ga('send', 'event', '插件介绍页', tongji_action, plugin_id);
 	_paq.push(['trackEvent', '插件介绍页',tongji_action,plugin_id]);
     _czc.push(﻿['_trackEvent','插件介绍页',tongji_action,plugin_id]);
 }
