@@ -9,8 +9,8 @@ plugin_update: 2017.02.10
 plugin_dllink: /resource/DGJ/DGJ1.5.4.zip
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
-作者的[直播间15253](http://live.bilibili.com/15253)
-有问题找不到作者时可以通过B站私信联系我
+作者的[直播间15253](https://live.bilibili.com/15253)
+有问题可以去[弹幕姬讨论区](https://f.danmuji.cn)发帖询问
 
 “点歌姬”和“B站弹幕姬”是独立工作的程序，支持和所有直播软件同时使用。
 
@@ -24,7 +24,7 @@ var tiphtml = `
 并在没有提醒的情况下静默关闭弹幕姬
 请在360杀毒中给弹幕姬添加白名单、或者使用其他杀毒软件</code></pre></div>
 `;
-if(is360()){document.getElementById('DGJ360Tip').innerHTML = tiphtml;}
+/*if(is360()){document.getElementById('DGJ360Tip').innerHTML = tiphtml;}*/
 })();
 </script>
 
