@@ -6,7 +6,7 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.1.21 重写版
+plugin_version: 1.0.1.21
 plugin_update: 2017.04.09
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
 plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
@@ -38,4 +38,5 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 请直接在弹幕姬中右键 TTSDanmaku 插件项，选择 **管理** 即可。
 
 *注意：TTSDanmaku **不会自动删除**下载的 TTS 文件。*
+
 *btw, 新增的 自动删除缓存 选项将不会工作。*
