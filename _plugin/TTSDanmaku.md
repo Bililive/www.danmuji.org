@@ -23,7 +23,7 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
  1. 将 `TTSDanmaku.dll` 复制到 `%USERPROFILE%\Documents\弹幕姬\Plugins`
  2. 打开/重启弹幕姬 -> 插件 -> 右键 **TTSDanmaku** -> 启用插件
  
-    btw: %USERPROFILE\Documents% 即 我的文档，上方路径可直接复制到资源管理器路径栏中。
+    btw: %USERPROFILE%\Documents 即 我的文档，上方路径可直接复制到资源管理器路径栏中。
 
 日常使用
 ----
