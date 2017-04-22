@@ -5,7 +5,9 @@ plugin_author: 宅急送队长
 plugin_name: 弹幕抽奖
 plugin_desc: 从弹幕中随机抽奖
 plugin_version: 1.0
-plugin_update: 2016.10.6
+plugin_update_datetime: 2016-10-6 12:00:00 +0800
+#plugin_update_desc: |-
+#  
 plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 #plugin_dlnote: 并不需要下载说明
 ---
