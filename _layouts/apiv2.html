@@ -1,0 +1,21 @@
+{% assign id = page.relative_path | replace:"_apiv2/","" | replace:".md","" %}
+{% for plg in site.plugin %}
+{% assign plg_id = plg.relative_path | replace:"_plugin/","" | replace:".md","" %}
+{% if plg_id == id %}
+{% assign data = plg %}
+
+{
+"id":"{{id}}",
+"name":"{{data.plugin_name}}",
+"author":"{{data.plugin_author}}",
+"version":"{{data.plugin_version}}",
+"description":"{{data.plugin_desc}}",
+"update_datetime":"{{ data.plugin_update_datetime | date_to_xmlschema }}",
+"update_desc":"{{ data.plugin_update_desc }}",
+"dl_url":"{{data.plugin_dllink}}",
+"dl_note":"{{data.plugin_dlnote}}"
+}
+
+{% break %}
+{% endif %}
+{% endfor %}

@@ -6,9 +6,13 @@ plugin_author: 宅急送队长
 plugin_name: 示例插件
 plugin_desc: 这只是一个插件示例
 plugin_version: 1.0.0
-plugin_update: 2016.10.11
+plugin_update_datetime: 2016-10-11 12:00:00 +0800
+plugin_update_desc: |-
+  关于本次版本更新
+  的说明
+  不展示到页面，只在API中提供
 plugin_dllink: #
-#plugin_dlnote: 并不需要下载说明
+plugin_dlnote: 下载说明，展示到页面
 ---
 
 # 这是一个插件页面示例！！

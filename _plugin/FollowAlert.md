@@ -5,7 +5,9 @@ plugin_author: 宅急送队长
 plugin_name: 关注提醒
 plugin_desc: 有新观众关注时发出提醒
 plugin_version: 1.0.0
-plugin_update: 2016.11.08
+plugin_update_datetime: 2016-11-08 12:00:00 +0800
+#plugin_update_desc: |-
+#  
 plugin_dllink: /resource/FollowAlert/FollowAlert100.zip
 #plugin_dlnote: 并不需要下载说明
 ---

@@ -10,7 +10,7 @@ layout: null
   {% endfor %}
   {% for page in site.plugin %}{% unless page.hide == true %}<url>
     <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-    {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
+    {% if page.plugin_update_datetime %}<lastmod>{{ page.plugin_update_datetime | date_to_xmlschema }}</lastmod>{% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
   </url>{% endunless %}
   {% endfor %}
 </urlset>
