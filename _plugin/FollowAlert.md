@@ -4,17 +4,22 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 关注提醒
 plugin_desc: 有新观众关注时发出提醒
-plugin_version: 1.0.0
-plugin_update_datetime: 2016-11-08 12:00:00 +0800
+plugin_version: 1.1.0
+plugin_update_datetime: 2017-04-22 11:50:00 +0800
 #plugin_update_desc: |-
 #  
-plugin_dllink: /resource/FollowAlert/FollowAlert100.zip
+plugin_dllink: /resource/FollowAlert/FollowAlert1.1.0.zip
 #plugin_dlnote: 并不需要下载说明
 ---
 ### 安装使用方法
 
-将插件放到```文档\弹幕姬\Plugins\```文件夹里  
+将插件放到 `文档\弹幕姬\Plugins\` 文件夹里  
 重启弹幕姬，在弹幕姬的 “插件” 面板启用插件即可
+
+插件已添加防刷屏功能，观众连续关注、取关主播不会导致提醒刷屏。
+
+插件会把关注人的名字显示到弹幕侧边栏。  
+并且写入到文件，供主播展示到直播画面中。每个关注人在文件中保留五秒（直播画面中停留五秒）。
 
 <img class="shadow" src="https://www.danmuji.cn/resource/FollowAlert/pic.png" alt="插件界面" />
 
