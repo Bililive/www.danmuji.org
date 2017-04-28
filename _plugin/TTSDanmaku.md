@@ -125,4 +125,4 @@ v1.0.1, build 19
 - TTSDanmaku 不适合出现**大量弹幕**的场合下使用。
 - 下载稳定性取决于网络。
 - 大量弹幕同时出现，可能会导致 TTS 夹杂混乱。
-- 根据有的用户反馈，NAudio 有概率释放失败，正在寻找原因，请先在[这里](https://www.danmuji.cn/resources/TTSDanmaku/NAudio.dll)下载。
+- 根据有的用户反馈，NAudio 有概率释放失败，正在寻找原因，请先在[这里](https://www.danmuji.cn/resource/TTSDanmaku/NAudio.dll)下载。
