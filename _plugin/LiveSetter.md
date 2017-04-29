@@ -9,7 +9,7 @@ plugin_version: 1.0.5
 plugin_update_datetime: 2017-04-29 08:00:00 +0800
 plugin_update_desc: |-
   投放至弹幕姬官网
-plugin_dllink: /resource/LiveSetter/LiveSetter.dll
+plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
 
