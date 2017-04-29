@@ -19,7 +19,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 插件界面
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/LiveSetter/UI.png" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/LiveSetter/preview.png" alt="插件界面" />
 
 插件功能
 ---
