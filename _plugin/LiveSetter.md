@@ -6,7 +6,7 @@ plugin_author: Executor丶
 plugin_name: 修改直播间信息
 plugin_desc: 快速修改直播间信息
 plugin_version: 1.0.6
-plugin_update_datetime: 2017-04-29 08:00:00 +0800
+plugin_update_datetime: 2017-05-03 12:32:31 +0800
 plugin_update_desc: |-
   修复bug,优化登录实现
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
