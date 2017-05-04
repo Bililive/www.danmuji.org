@@ -1,58 +1,59 @@
 ---
 # hide: true
-title: 修改直播间信息
-auther: Executor丶
-plugin_author: Executor丶
-plugin_name: 修改直播间信息
-plugin_desc: 快速修改直播间信息
-plugin_version: 1.0.6
-plugin_update_datetime: 2017-05-03 12:32:31 +0800
+title: �޸�ֱ������Ϣ
+auther: Executorؼ
+plugin_author: Executorؼ
+plugin_name: �޸�ֱ������Ϣ
+plugin_desc: �����޸�ֱ������Ϣ
+plugin_version: 1.0.7
+plugin_update_datetime: 2017-05-04 05:22:58 +0800
 plugin_update_desc: |-
-  修复bug,优化登录实现
+  �Ż����Զ����µ�ʵ��,ʹ���ܹ�׼ȷ��λdll��λ��
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
-plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
+plugin_dlnote: ֻ�ڵ�Ļ����������̳�ṩ����,����ת��
 ---
 
-若插件有任何问题，亦或对插件有建议，请发邮件至 847529602@qq.com
+��������κ����⣬���Բ���н��飬�뷢�ʼ��� 847529602@qq.com
 
-※支持使用**登录中心**插件登录
+��֧��ʹ��**��¼����**�����¼
 
-插件界面
+�������
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/LiveSetter/preview.png" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/LiveSetter/preview.png" alt="�������" />
 
-插件功能
+�������
 ---
-- 修改直播间标题、分区、标签
-- 开播/关播、获取推流码
-- 获取个人信息
-- 切换直播间背景(暂不支持上传和删除)
-- 切换直播间封面(暂不支持上传和删除)
-- 任命/取消房管
-- 禁言/解禁用户
-- 设置/取消全局禁言
+- �޸�ֱ������⡢��������ǩ
+- ����/�ز�����ȡ������
+- ��ȡ������Ϣ
+- �л�ֱ���䱳��(�ݲ�֧���ϴ���ɾ��)
+- �л�ֱ�������(�ݲ�֧���ϴ���ɾ��)
+- ����/ȡ������
+- ����/����û�
+- ����/ȡ��ȫ�ֽ���
 
-安装方法
+��װ����
 ---
-下载文件后直接放进 `我的文档\弹幕姬\plugins\` 重启弹幕姬即可。
+�����ļ���ֱ�ӷŽ� `�ҵ��ĵ�\��Ļ��\plugins\` ������Ļ�����ɡ�
 
-使用说明
+ʹ��˵��
 ---
-第一次运行时会创建目录 `我的文档\弹幕姬\plugins\LiveSetterDll\` 并在该目录下释放文件 "Gma.QrCodeNet.Encoding.dll" 用来支持二维码登录。
+��һ������ʱ�ᴴ��Ŀ¼ `�ҵ��ĵ�\��Ļ��\plugins\LiveSetterDll\` ���ڸ�Ŀ¼���ͷ��ļ� "Gma.QrCodeNet.Encoding.dll" ����֧�ֶ�ά���¼��
 
-也会在上述目录下创建目录 `description` 目录用来备份直播间页面的所有代码,以防简介丢失
+Ҳ��������Ŀ¼�´���Ŀ¼ `description` Ŀ¼��������ֱ����ҳ������д���,�Է���鶪ʧ
 
-**用户的cookie保存在 `我的文档\弹幕姬\plugins\cookie` 目录下，请勿将目录下的文件给予他人!**
+**�û���cookie������ `�ҵ��ĵ�\��Ļ��\plugins\cookie` Ŀ¼�£�����Ŀ¼�µ��ļ���������!**
 
-本插件所有功能均在管理页面中，移步至 **插件** 选项卡并右键本插件，点击 **管理** 即可。
+��������й��ܾ��ڹ���ҳ���У��Ʋ��� **���** ѡ����Ҽ����������� **����** ���ɡ�
 
 
 
-更新日志
+������־
 ---
-- 2017-04-26 18:32:31 修复了封面无效时仍然可以进行更改操作的bug,优化了登录过程中请求的实现
-- 2017-04-26 14:10:00 投放至弹幕姬官网,并添加自动更新功能
-- 2017-04-22 17:21:44 ※重要※重写了获取简介的方法，以保证能够正确地提交简介信息
-- 2017-04-08 17:50:00 添加了打开自己的直播间按钮
-- 2017-04-07 17:31:40 修复了字体错位，房管列表加载失败的问题
-- 2017-04-05 17:45:46 添加"刷新本页信息"功能。修复了刷新信息时无法显示全局禁言剩余时间的bug
+- 2017-05-04 13:22:58 �Ż����Զ����µ�ʵ��,ʹ���ܹ�׼ȷ��λdll��λ��
+- 2017-05-03 18:32:31 �޸��˷�����Чʱ��Ȼ���Խ��и��Ĳ�����bug,�Ż��˵�¼�����������ʵ��
+- 2017-04-26 14:10:00 Ͷ������Ļ������,�������Զ����¹���
+- 2017-04-22 17:21:44 ����Ҫ����д�˻�ȡ���ķ������Ա�֤�ܹ���ȷ���ύ�����Ϣ
+- 2017-04-08 17:50:00 �����˴��Լ���ֱ���䰴ť
+- 2017-04-07 17:31:40 �޸��������λ�������б�����ʧ�ܵ�����
+- 2017-04-05 17:45:46 ����"ˢ�±�ҳ��Ϣ"���ܡ��޸���ˢ����Ϣʱ�޷���ʾȫ�ֽ���ʣ��ʱ���bug
