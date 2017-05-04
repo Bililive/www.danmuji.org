@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 修改直播间信息
 plugin_desc: 快速修改直播间信息
-plugin_version: 1.0.6
-plugin_update_datetime: 2017-05-03 12:32:31 +0800
+plugin_version: 1.0.7
+plugin_update_datetime: 2017-05-04 05:22:58 +0800
 plugin_update_desc: |-
-  修复bug,优化登录实现
+  优化了自动更新的实现,使其能够准确定位dll的位置
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
@@ -50,7 +50,8 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
-- 2017-04-26 18:32:31 修复了封面无效时仍然可以进行更改操作的bug,优化了登录过程中请求的实现
+- 2017-05-04 13:22:58 优化了自动更新的实现,使其能够准确定位dll的位置
+- 2017-05-03 18:32:31 修复了封面无效时仍然可以进行更改操作的bug,优化了登录过程中请求的实现
 - 2017-04-26 14:10:00 投放至弹幕姬官网,并添加自动更新功能
 - 2017-04-22 17:21:44 ※重要※重写了获取简介的方法，以保证能够正确地提交简介信息
 - 2017-04-08 17:50:00 添加了打开自己的直播间按钮
