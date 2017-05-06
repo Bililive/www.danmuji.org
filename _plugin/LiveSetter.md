@@ -5,7 +5,7 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 修改直播间信息
 plugin_desc: 快速修改直播间信息
-plugin_version: 1.0.7
+plugin_version: 1.0.8
 plugin_update_datetime: 2017-05-04 05:22:58 +0800
 plugin_update_desc: |-
   优化了自动更新的实现,使其能够准确定位dll的位置
@@ -50,6 +50,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
+- 2017-05-04 14:32:46 修复了自动更新的bug(还是C#比较友好)
 - 2017-05-04 13:22:58 优化了自动更新的实现,使其能够准确定位dll的位置
 - 2017-05-03 18:32:31 修复了封面无效时仍然可以进行更改操作的bug,优化了登录过程中请求的实现
 - 2017-04-26 14:10:00 投放至弹幕姬官网,并添加自动更新功能
