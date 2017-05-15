@@ -50,6 +50,7 @@ function Download() {
     var win = window.open(plugin_download_url, '_blank');
     if (win) {
         var tongji_action = "下载弹出成功";
+		notie.alert({ type: 4, text: '别忘了看本页面上的插件使用说明！', time: 6 })
         //Browser has allowed it to be opened
         //win.focus();
     } else {
