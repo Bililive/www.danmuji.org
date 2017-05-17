@@ -1,19 +1,21 @@
 ---
 # hide: true
-title: 修改直播间信息
+title: 管理直播间小工具
 auther: Executor丶
 plugin_author: Executor丶
-plugin_name: 修改直播间信息
-plugin_desc: 快速修改直播间信息
-plugin_version: 1.0.9
-plugin_update_datetime: 2017-05-10 04:22:46 +0800
+plugin_name: 管理直播间小工具
+plugin_desc: 管理你的直播间
+plugin_version: 1.0.10
+plugin_update_datetime: 2017-05-17 04:12:34 +0800
 plugin_update_desc: |-
-  ※重要※更新了修改分区的逻辑
+  更新了检测当前分区的逻辑
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
 
 若插件有任何问题，亦或对插件有建议，请发邮件至 847529602@qq.com
+
+**※本插件依赖.NET Framework 4.6.2框架,若你的计算机中缺少此框架,可能会导致插件无法正常工作※**
 
 ※支持使用**登录中心**插件登录
 
@@ -38,6 +40,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 使用说明
 ---
+
 第一次运行时会创建目录 `我的文档\弹幕姬\plugins\LiveSetterDll\` 并在该目录下释放文件 "Gma.QrCodeNet.Encoding.dll" 用来支持二维码登录。
 
 也会在上述目录下创建目录 `description` 目录用来备份直播间页面的所有代码,以防简介丢失
@@ -50,6 +53,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
+- 2017-05-17 12:12:34 更新了检测当前分区的逻辑
 - 2017-05-10 04:22:46 ※重要※更新了修改分区的逻辑
 - 2017-05-04 14:32:46 修复了自动更新的bug(还是C#比较友好)
 - 2017-05-04 13:22:58 优化了自动更新的实现,使其能够准确定位dll的位置
