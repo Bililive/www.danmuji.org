@@ -5,7 +5,7 @@ auther: ConstP
 plugin_author: ConstP
 plugin_name: 新·在线人数视窗
 plugin_desc: 在桌面部署一个置顶窗口浏览当前在线观众人数
-plugin_version: 2017RC0-100
+plugin_version: 1.0.0
 plugin_update_datetime: 2017-05-21 01:00:00 +0800
 #plugin_update_desc: |-
 #  
