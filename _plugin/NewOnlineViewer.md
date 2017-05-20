@@ -13,7 +13,7 @@ plugin_dllink: /resource/NewOnlineViewer/DanmakuPlugin_NewOnlineViewer.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 
-<img class="shadow" src="https://www.danmuji.cn/resource/NewOnlineViewer.zip/demo.jpg" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/demo.jpg" alt="插件界面" />
 
 ## 安装插件
 
@@ -23,12 +23,12 @@ plugin_dllink: /resource/NewOnlineViewer/DanmakuPlugin_NewOnlineViewer.zip
 
 <br/>
 
-##管理插件
+## 管理插件
 插件列表邮件点击管理即可打开控制面板
 
 需要移动悬浮窗位置需要先关闭鼠标穿透后开启窗口拖曳
 
 <br/>
 
-##项目状况
+## 项目状况
 本项目已在Github开源，遵守GPL-v2.0协议。 [项目地址](https://github.com/xzso3/DanmakuPlugin_NewOnlineViewer)
