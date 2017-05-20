@@ -13,7 +13,7 @@ plugin_dllink: /resource/NewOnlineViewer/DanmakuPlugin_NewOnlineViewer.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 
-<img class="shadow" src="https://www.danmuji.cn/resource/demo.jpg" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/NewOnlineViewer/demo.jpg" alt="插件界面" />
 
 ## 安装插件
 
