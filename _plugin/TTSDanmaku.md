@@ -6,9 +6,9 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.1.24
+plugin_version: 1.0.3.41
 #plugin_update: 2017.04.22
-plugin_update_datetime: 2017-04-22 23:20:00 +0800
+plugin_update_datetime: 2017-05-21 11:54:00 +0800
 #plugin_update_desc: |-
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
@@ -56,6 +56,15 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 [i] 楼上的问题将在后期版本中解决。
 
 [i] 新版开发进度:
+
+v1.0.3, build 41 ->
+[+] 根据用户 [三冥九夜] 在留言板的建议，
+    新增了 自定义弹幕读出内容 以及 自定义礼物读出内容 的选项。
+[+] 毫无卵用: 检测 NAudio 是否存在，防止进一步出错（
+[+] 改善整体稳定性。
+[+] 插件管理页面终于不是丑到家的宋体了。
+
+[i] 用户 [小小小小小马] 所提出的逐条读出弹幕功能正在开发。
 
 v1.0.2, build 32 ->
 [+] 根据代码分析做了一定优化。
@@ -122,7 +131,50 @@ v1.0.1, build 19
 注意事项
 ----
 
-- TTSDanmaku 不适合出现**大量弹幕**的场合下使用。
+- TTSDanmaku 不适合出现**大量弹幕**的场合下使用。或是在 build 27+ 的版本中启用**弹幕冷却**选项。
+- 插件涉及到配置文件变动的更新或配置文件出错，请手动删除配置文件。
 - 下载稳定性取决于网络。
 - 大量弹幕同时出现，可能会导致 TTS 夹杂混乱。
+- 自定义 弹幕 / 礼物 读出内容中的变量 **大小写敏感**。
 - 根据有的用户反馈，NAudio 有概率释放失败，正在寻找原因，请先在[这里](https://www.danmuji.cn/resource/TTSDanmaku/NAudio.dll)下载。
+
+自定义弹幕 / 礼物读出内容格式
+----------------
+
+自定义内容中的以下文本将被替换:
+```
+$USER 弹幕/礼物发送者
+$COUNT 收到的礼物数目
+$GIFT 礼物名称
+$DM 弹幕内容
+```
+比如默认值:
+```
+收到来自 $USER 的 $COUNT 个 $GIFT。
+```
+替换后变成:
+```
+收到来自 Elepover 的 10 个 小拳拳。
+```
+
+历史下载
+----
+
+**如果新版 TTSDanmaku 工作异常**，请在此下载旧版。
+
+[TTSDanmaku v1.0.1.24](https://www.danmuji.cn/resource/TTSDanmaku/ver10124/TTSDanmaku.zip)
+
+TTSDanmaku 将在作者的下载服务器实时更新，如需体验新版，请[在此](https://ttsdanmaku.elepover.com)下载。
+
+关于 NAudio 丢失问题
+-------------
+
+如果遇到了这种错误:
+
+```
+System.IO.FileNotFoundException: 未能加载文件或程序集“NAudio, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“NAudio, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null”
+```
+
+请在上方注意事项中下载 NAudio，并与 TTSDanmaku 主插件置于一起，重新启用插件即可。
+TTSDanmaku 1.0.3+ 中将部分避免此问题发生。
