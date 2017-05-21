@@ -6,9 +6,9 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.1.24
+plugin_version: 1.0.3.41
 #plugin_update: 2017.04.22
-plugin_update_datetime: 2017-04-22 23:20:00 +0800
+plugin_update_datetime: 2017-05-21 11:54:00 +0800
 #plugin_update_desc: |-
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
@@ -156,6 +156,12 @@ $DM 弹幕内容
 ```
 收到来自 Elepover 的 10 个 小拳拳。
 ```
+
+历史下载
+----
+
+**如果新版 TTSDanmaku 工作异常**，请在此下载旧版。
+[TTSDanmaku v1.0.1.24](https://www.danmuji.cn/resources/TTSDanmaku/ver10124/TTSDanmaku.zip)
 
 关于 NAudio 丢失问题
 -------------
