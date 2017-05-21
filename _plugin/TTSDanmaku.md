@@ -164,6 +164,8 @@ $DM 弹幕内容
 
 [TTSDanmaku v1.0.1.24](https://www.danmuji.cn/resource/TTSDanmaku/ver10124/TTSDanmaku.zip)
 
+TTSDanmaku 将在作者的下载服务器实时更新，如需体验新版，请[在此](https://ttsdanmaku.elepover.com)下载。
+
 关于 NAudio 丢失问题
 -------------
 
