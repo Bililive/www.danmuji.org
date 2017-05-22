@@ -8,7 +8,7 @@ plugin_desc: 管理你的直播间
 plugin_version: 1.0.11
 plugin_update_datetime: 2017-05-21 13:43:12 +0800
 plugin_update_desc: |-
-  当获取当前分区失败时不再显示"内部错误"
+  当获取当前分区失败时不再显示“内部错误”
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
