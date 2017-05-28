@@ -32,6 +32,7 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 ----
 
 使用截图:
+
 ![使用截图](https://www.danmuji.cn/resource/TTSDanmaku/screenshot.png)
 
 首次启动 TTSDanmaku 将会自动释放 NAudio.dll 到插件目录中以正常播放 MP3 文件，请不要删除。
@@ -64,6 +65,7 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 [i] 新版开发进度:
 
 v1.0.3, build 43 ->
+[+] 按 ESC 可以直接关闭设置窗口。
 [+] 允许用户自定义弹幕引擎(+ .NET Framework 自带引擎)
 [i] 取决于系统完整性，部分盗版系统上无法正常工作。
 [+] 新增常见问题（FAQ）入口点。
