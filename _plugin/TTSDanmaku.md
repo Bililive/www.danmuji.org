@@ -33,6 +33,8 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 
 首次启动 TTSDanmaku 将会自动释放 NAudio.dll 到插件目录中以正常播放 MP3 文件，请不要删除。
 * 如遇到提示 NAudio 丢失之类的错误，请参考页面底部下载。
+正确的插件放置方法:
+
 
 如需执行以下操作：
 
@@ -56,6 +58,11 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 [i] 楼上的问题将在后期版本中解决。
 
 [i] 新版开发进度:
+
+v1.0.3, build 43 ->
+[+] 允许用户自定义弹幕引擎(+ .NET Framework 自带引擎)
+[i] 取决于系统完整性，部分盗版系统上无法正常工作。
+[+] 新增常见问题（FAQ）入口点。
 
 v1.0.3, build 41 ->
 [+] 根据用户 [三冥九夜] 在留言板的建议，
@@ -156,6 +163,7 @@ $DM 弹幕内容
 ```
 收到来自 Elepover 的 10 个 小拳拳。
 ```
+如果文本框为红色，说明有不应该出现的变量出现，将不会保存自定义文本。
 
 历史下载
 ----
@@ -164,7 +172,7 @@ $DM 弹幕内容
 
 [TTSDanmaku v1.0.1.24](https://www.danmuji.cn/resource/TTSDanmaku/ver10124/TTSDanmaku.zip)
 
-TTSDanmaku 将在作者的下载服务器实时更新，如需体验新版，请[在此](https://ttsdanmaku.elepover.com)下载。
+TTSDanmaku 将在作者的下载服务器实时更新，如需体验新版，请[ >在此< ](https://ttsdanmaku.elepover.com)下载。
 
 关于 NAudio 丢失问题
 -------------
