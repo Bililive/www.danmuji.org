@@ -31,10 +31,14 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 日常使用
 ----
 
+使用截图:
+![使用截图](https://www.danmuji.cn/resource/TTSDanmaku/screenshot.png)
+
 首次启动 TTSDanmaku 将会自动释放 NAudio.dll 到插件目录中以正常播放 MP3 文件，请不要删除。
 * 如遇到提示 NAudio 丢失之类的错误，请参考页面底部下载。
-正确的插件放置方法:
+正确的 NAudio 放置位置:
 
+![正确的文件放置](https://www.danmuji.cn/resource/TTSDanmaku/fileplace.png)
 
 如需执行以下操作：
 
