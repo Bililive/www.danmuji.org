@@ -234,6 +234,11 @@ div-style: "max-width:1400px;margin-top:20px;"
 		data: {
 			byte: 1024 * 1024 // 1 MiB
 		},
+		watch: {
+			byte: function (value) {
+				if (!isFinite(value) || value < 0) this.byte = 0
+			}
+		},
 		computed: {
 			bit: {
 				get: function () {
