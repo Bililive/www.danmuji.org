@@ -6,9 +6,9 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.3.41
-#plugin_update: 2017.04.22
-plugin_update_datetime: 2017-05-21 11:54:00 +0800
+plugin_version: 1.0.3.48
+#plugin_update: 2017.06.07
+plugin_update_datetime: 2017-06-07 13:54:00 +0800
 #plugin_update_desc: |-
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
@@ -51,9 +51,9 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 更新日志
 ----
 
-稳定版本（弹幕姬插件仓库版本）: **v1.0.3.41**
+稳定版本（弹幕姬插件仓库版本）: **v1.0.3.48**
 
-最新版本: [**v1.0.3.45**](https://ttsdanmaku.elepover.com)
+最新版本: [**v1.0.3.48**](https://ttsdanmaku.elepover.com)
 
 ```
 [i] 各前缀说明:
@@ -68,8 +68,24 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 
 [i] 新版开发进度:
 
+v1.0.3, build 48 ->
+[+] 新增 Google 娘语音引擎。
+    来源项目地址: https://github.com/rcarubbi/Google.TTS
+    魔改 By Elepover.
+[/] 修复一个 Layout 问题。
+[/] 为状态报告窗口修改了默认按钮。
+
+v1.0.3, build 47 ->
+[/] (伪) 加快设置窗口处理 TTS 文件速度。
+[/] 部分地修复因下载文件不完整导致的 MP3 播放失败。
+[/] 修正部分 Layouts.
+[+] 已开源！
+    https://github.com/Elepover/Plugin-TTSDanmaku
+
 v1.0.3, build 46 ->
 [/] 解决阻止弹幕姬正常退出的问题。
+[/] 解决错误退出的问题。
+[i] 我可能要食言了...跟进弹幕姬 API 目前任务艰巨啊...
 
 v1.0.3, build 45 ->
 [+] 状态报告，以一定频率汇报系统及直播间状态。
