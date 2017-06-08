@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.0.11
-plugin_update_datetime: 2017-05-21 13:43:12 +0800
+plugin_version: 1.1.0
+plugin_update_datetime: 2017-06-08 14:27:28 +0800
 plugin_update_desc: |-
-  当获取当前分区失败时不再显示“内部错误”
+  添加了"模板"功能
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
@@ -26,6 +26,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 插件功能
 ---
 - 修改直播间标题、分区、标签
+- 保存直播间信息模板
 - 开播/关播、获取推流码
 - 获取个人信息
 - 切换直播间背景(暂不支持上传和删除)
@@ -53,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
+- 2017-06-08 14:27:28 添加了"模板"功能
 - 2017-05-21 21:43:12 当获取当前分区失败时不再显示"内部错误"
 - 2017-05-17 12:12:34 更新了检测当前分区的逻辑
 - 2017-05-10 04:22:46 ※重要※更新了修改分区的逻辑
