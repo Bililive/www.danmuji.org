@@ -8,7 +8,7 @@ plugin_desc: 管理你的直播间
 plugin_version: 1.1.0
 plugin_update_datetime: 2017-06-08 14:27:28 +0800
 plugin_update_desc: |-
-  添加了"模板"功能
+  添加了“模板”功能
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
