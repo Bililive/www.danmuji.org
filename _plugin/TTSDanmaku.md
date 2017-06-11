@@ -68,6 +68,10 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 
 [i] 新版开发进度:
 
+v1.0.3, build 49 ->
+[+] 设置窗口秘密更新。
+[/] 修复诸多启动 / 退出过程中的问题。
+
 v1.0.3, build 48 ->
 [+] 新增 Google 娘语音引擎。
     来源项目地址: https://github.com/rcarubbi/Google.TTS
