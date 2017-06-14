@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.1.0
-plugin_update_datetime: 2017-06-08 14:27:28 +0800
+plugin_version: 1.1.1
+plugin_update_datetime: 2017-06-14 12:27:30 +0800
 plugin_update_desc: |-
-  添加了“模板”功能
+  更新开启直播方法，解决无法开播的问题
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
+- 2017-06-14 12:27:30 更新开启直播方法，解决无法开播的问题
 - 2017-06-08 14:27:28 添加了"模板"功能
 - 2017-05-21 21:43:12 当获取当前分区失败时不再显示"内部错误"
 - 2017-05-17 12:12:34 更新了检测当前分区的逻辑
