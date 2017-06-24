@@ -6,9 +6,9 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.3.48
+plugin_version: 1.0.4.50
 #plugin_update: 2017.06.07
-plugin_update_datetime: 2017-06-07 13:54:00 +0800
+plugin_update_datetime: 2017-06-24 23:11:00 +0800
 #plugin_update_desc: |-
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
@@ -51,9 +51,9 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 更新日志
 ----
 
-稳定版本（弹幕姬插件仓库版本）: **v1.0.3.49**
+稳定版本（弹幕姬插件仓库版本）: **v1.0.4.50**
 
-最新版本: [**v1.0.3.49**](https://ttsdanmaku.elepover.com)
+最新版本: [**v1.0.4.50**](https://ttsdanmaku.elepover.com)
 
 ```
 [i] 各前缀说明:
@@ -67,6 +67,12 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 [i] 楼上的问题将在后期版本中解决。
 
 [i] 新版开发进度:
+
+v1.0.4, build 50 ->
+[+] 新增设置向导功能（可按住 Shift 选择“管理”来打开设置向导）。
+[+] *一定程度上*修复内存爆炸问题。
+[+] 新增 TTS 音量设置。
+[+] 按住 Ctrl 时选择“管理”将会重置配置文件。
 
 v1.0.3, build 49 ->
 [+] 设置窗口秘密更新。
