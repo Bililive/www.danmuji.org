@@ -5,8 +5,8 @@ auther: ConstP
 plugin_author: ConstP
 plugin_name: 新·在线人数视窗
 plugin_desc: 在桌面部署一个置顶窗口浏览当前在线观众人数
-plugin_version: 1.0.0
-plugin_update_datetime: 2017-05-21 01:00:00 +0800
+plugin_version: 1.0.1
+plugin_update_datetime: 2017-06-28 22:59:00 +0800
 #plugin_update_desc: |-
 #  
 plugin_dllink: /resource/NewOnlineViewer/DanmakuPlugin_NewOnlineViewer.zip
