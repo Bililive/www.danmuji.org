@@ -5,8 +5,8 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
 plugin_desc: 在弹幕姬中快速发送弹幕
-plugin_version: 1.1.0
-plugin_update_datetime: 2017-07-12 00:01:30 +0800
+plugin_version: 1.1.1
+plugin_update_datetime: 2017-07-12 00:23:00 +0800
 plugin_update_desc: |-
   旧版“弹幕发送”和“登录中心”已不能使用
   请更新到最新版本
