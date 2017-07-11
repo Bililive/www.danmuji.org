@@ -7,8 +7,9 @@ plugin_name: 登录中心
 plugin_desc: 登录B站账号供其他插件使用
 plugin_version: 1.1.0
 plugin_update_datetime: 2017-07-12 00:01:30 +0800
-#plugin_update_desc: |-
-#  
+plugin_update_desc: |-
+  旧版“弹幕发送”和“登录中心”已不能使用
+  请更新到最新版本
 plugin_dllink: /resource/LoginCenter/LoginCenter.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
