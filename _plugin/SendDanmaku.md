@@ -1,12 +1,12 @@
 ---
-hide: true
+#hide: true
 title: 弹幕发送
 auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
 plugin_desc: 在弹幕姬中快速发送弹幕
-plugin_version: 1.1.2
-plugin_update_datetime: 2017-07-12 02:32:00 +0800
+plugin_version: 1.1.3
+plugin_update_datetime: 2017-07-12 19:57:00 +0800
 plugin_update_desc: |-
   旧版“弹幕发送”和“登录中心”已不能使用
   请更新到最新版本
