@@ -10,7 +10,7 @@ plugin_update_datetime: 2017-07-12 00:01:30 +0800
 plugin_update_desc: |-
   旧版“弹幕发送”和“登录中心”已不能使用
   请更新到最新版本
-  弹幕发送插件：https://www.danmuji.cn/plugins/SendDanmaku
+  弹幕发送插件: https://www.danmuji.cn/plugins/SendDanmaku
 plugin_dllink: /resource/LoginCenter/LoginCenter.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
