@@ -3,3 +3,6 @@ Sitemap: https://www.danmuji.cn/sitemap.xml
 User-agent: *
 Disallow: /api/
 Disallow: /plugins/example
+
+User-agent: ia_archiver
+Disallow: /
