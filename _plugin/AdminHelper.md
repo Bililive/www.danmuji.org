@@ -5,8 +5,8 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.0.0
-plugin_update_datetime: 2017-07-26 12:25:41 +0800
+plugin_version: 1.0.1
+plugin_update_datetime: 2017-07-27 18:00:45 +0800
 plugin_update_desc: |-
   初版
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
@@ -15,7 +15,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 继承了原作的坑:https://tieba.baidu.com/p/4351601474
 
-若插件有任何问题，亦或对插件有建议，请发邮件至 847529602@qq.com
+若插件有任何问题，亦或对插件有建议，请至弹幕姬论坛中发帖并@我，或者在任何一个弹幕姬群里@我
 
 **※本插件依赖.NET Framework 4.6.2框架,若你的计算机中缺少此框架,可能会导致插件无法正常工作※**
 
@@ -52,4 +52,5 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 更新日志
 ---
+- 2017-07-27 18:00:45 解决了插件可能无法加载的问题
 - 2017-07-26 12:25:41 发布重制版插件
