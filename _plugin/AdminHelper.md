@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.0.2
-plugin_update_datetime: 2017-07-28 22:39:33 +0800
+plugin_version: 1.0.3
+plugin_update_datetime: 2017-07-29 13:38:01 +0800
 plugin_update_desc: |-
-  插件能自动检测弹幕最大长度了,在初始化插件的时候能够捕获错误了
+  修复了因为颜色字典导致弹幕颜色功能失效的问题
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
@@ -52,6 +52,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 更新日志
 ---
+- 2017-07-29 13:38:01 修复了因为颜色字典导致弹幕颜色功能失效的问题
 - 2017-07-28 22:39:33 插件能自动检测弹幕最大长度了,在初始化插件的时候能够捕获错误了
 - 2017-07-27 18:00:45 解决了插件可能无法加载的问题
 - 2017-07-26 12:25:41 发布重制版插件
