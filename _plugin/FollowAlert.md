@@ -4,11 +4,11 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 关注提醒
 plugin_desc: 有新观众关注时发出提醒
-plugin_version: 1.1.0
-plugin_update_datetime: 2017-04-22 11:50:00 +0800
-#plugin_update_desc: |-
-#  
-plugin_dllink: /resource/FollowAlert/FollowAlert1.1.0.zip
+plugin_version: 1.1.1
+plugin_update_datetime: 2017-05-28 09:44:00 +0800
+plugin_update_desc: |-
+  因为B站接口变动，旧插件已不能使用，请升级到最新版本。
+plugin_dllink: /resource/FollowAlert/FollowAlert1.1.1.zip
 #plugin_dlnote: 并不需要下载说明
 ---
 ### 安装使用方法

@@ -46,9 +46,20 @@
 	</div>
 	
 <script>
-function Download() {
-    var win = window.open(plugin_download_url, '_blank');
-    if (win) {
+function Download(){
+//总有人死都不看使用说明
+setTimeout(RealDownload, 1500);
+try{
+notie.alert({ type: 4, text: '别忘了看本页面上的插件使用说明！', time: 6 });
+}
+catch(error){// 不支持 Promise 的浏览器，惊了我都
+alert("别忘了看本页面上的插件使用说明！");
+}
+}
+function RealDownload() {
+    //var win = window.open(plugin_download_url, '_blank');
+	document.getElementById('download_iframe').src = plugin_download_url;
+    if (true/*win*/) {
         var tongji_action = "下载弹出成功";
         //Browser has allowed it to be opened
         //win.focus();
@@ -62,4 +73,5 @@ function Download() {
     _czc.push(﻿['_trackEvent','插件介绍页',tongji_action,plugin_id]);
 }
 </script>
+<iframe id="download_iframe" style="display:none!important;"></iframe>
 </body></html>

@@ -4,11 +4,11 @@
 #  icon: fa-download
 
 - name: 插件目录
-  link: /plugins
+  link: /plugins/
   icon: fa-list
 
 - name: 弹幕姬讨论区
-  link: http://f.danmuji.cn
+  link: https://f.danmuji.cn
   icon: fa-comments-o
   target: _blank
   

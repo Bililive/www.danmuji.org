@@ -18,43 +18,6 @@ plugin_dlnote: 请不要二次上传到其他网站谢谢
 
 “点歌姬”和“B站弹幕姬”是独立工作的程序，支持和所有直播软件同时使用。
 
-<div id="DGJ360Tip"></div>
-<script>
-window.is360=function(){var n=!1,r=["31.0.1650.63","45.0.2454.101","50.0.2661.102"];return navigator.userAgent.split(" ").forEach(function(t){t.startsWith("Chrome/")&&r.forEach(function(r){t=="Chrome/"+r&&(n=!0)})}),n};
-(function(){
-var tiphtml = `
-<div class="highlighter-rouge"><pre class="highlight"><code><span style="font-weight: bold;color: #e1715b;font-size: 20px;">检测到你使用的是360浏览器</span>
-<span style="font-size: 18px;font-weight: bold;">提醒：</span>有用户反馈，360杀毒有时会在点歌姬下载歌曲时认为是下载病毒
-并在没有提醒的情况下静默关闭弹幕姬
-请在360杀毒中给弹幕姬添加白名单、或者使用其他杀毒软件</code></pre></div>
-`;
-/*if(is360()){document.getElementById('DGJ360Tip').innerHTML = tiphtml;}*/
-})();
-</script>
-
-<br/>
-
-### 近期更新内容：
-
-```
-2017-2-10 版本：1.5.4
-	*修改搜素模块系统代码中的typo
-	*搜索模块“LWLAPI”同步更新到1.0版本，支持了多个歌曲平台
-	注：使用新版LWLAPI需要点歌姬本体版本1.5.4或以上
-
-2017.2.5 版本：1.5.3
-	*修复部分歌曲在Win7上播放出错的问题
-
-2017.2.2 版本：1.5.2
-	+所有弹幕命令都支持繁体了
-	+关闭弹幕姬时清空输出文本
-	+在界面上添加了“切歌”按钮
-	*“播放暂停”按钮的图标分成“播放”和“暂停”两个图标
-	*过滤了歌曲缓存文件名中的非法字符
-	*修改了版本更新提醒中的更新日期，现在只有年月日，没有时间
-```  
-
-
 1. [安装插件相关](#install)
 2. [基本使用](#usage)
     1. [弹幕命令](#usage_cmd)
