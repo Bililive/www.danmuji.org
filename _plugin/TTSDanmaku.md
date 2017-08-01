@@ -6,17 +6,21 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
-plugin_version: 1.0.4.50
+plugin_version: 1.0.4.53
 #plugin_update: 2017.06.07
-plugin_update_datetime: 2017-06-24 23:11:00 +0800
+plugin_update_datetime: 2017-07-31 16:48:00 +0800
 #plugin_update_desc: |-
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
-plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
+plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
+最新版编译状态:
 
+[![Build status](https://ci.appveyor.com/api/projects/status/o3wb9g7am3h4peny?svg=true)](https://ci.appveyor.com/project/Elepover/plugin-ttsdanmaku)
 
 有问题或是有建议可以 [在作者的 Blog](https://blog.elepover.com/quoteLeft.html) 通过评论提交。
+
+[在此感谢](https://github.com/Elepover/Plugin-TTSDanmaku/blob/master/THANKS.md)每一位为此插件做出贡献的用户。
 
 安装方法
 ----
@@ -51,142 +55,11 @@ plugin_dlnote: 只在弹幕姬网站上上传，请勿搬运。
 更新日志
 ----
 
-稳定版本（弹幕姬插件仓库版本）: **v1.0.4.50**
+稳定版本（弹幕姬插件仓库版本）: **v1.0.4.53**
 
-最新版本: [**v1.0.4.50**](https://ttsdanmaku.elepover.com)
+最新版本: [**v1.0.4.53**](https://ttsdanmaku.elepover.com)
 
-```
-[i] 各前缀说明:
-    [i] = 提示
-    [!] = 注意
-    [+] = 新增
-    [/] = 修改
-
-[!] 部分涉及到设置系统变更的版本更新，
-    将会重置配置，请在更新后重新设置。
-[i] 楼上的问题将在后期版本中解决。
-
-[i] 新版开发进度:
-
-v1.0.4, build 50 ->
-[+] 新增设置向导功能（可按住 Shift 选择“管理”来打开设置向导）。
-[+] *一定程度上*修复内存爆炸问题。
-[+] 新增 TTS 音量设置。
-[+] 按住 Ctrl 时选择“管理”将会重置配置文件。
-
-v1.0.3, build 49 ->
-[+] 设置窗口秘密更新。
-[/] 修复诸多启动 / 退出过程中的问题。
-
-v1.0.3, build 48 ->
-[+] 新增 Google 娘语音引擎。
-    来源项目地址: https://github.com/rcarubbi/Google.TTS
-    魔改 By Elepover.
-[/] 修复一个 Layout 问题。
-[/] 为状态报告窗口修改了默认按钮。
-
-v1.0.3, build 47 ->
-[/] (伪) 加快设置窗口处理 TTS 文件速度。
-[/] 部分地修复因下载文件不完整导致的 MP3 播放失败。
-[/] 修正部分 Layouts.
-[+] 已开源！
-    https://github.com/Elepover/Plugin-TTSDanmaku
-
-v1.0.3, build 46 ->
-[/] 解决阻止弹幕姬正常退出的问题。
-[/] 解决错误退出的问题。
-[i] 我可能要食言了...跟进弹幕姬 API 目前任务艰巨啊...
-
-v1.0.3, build 45 ->
-[+] 状态报告，以一定频率汇报系统及直播间状态。
-[i] 该功能默认关闭。
-[!] 启用状态报告后，请务必在关闭弹幕姬前
-    停止插件，否则将会无法正常退出弹幕姬。
-[+] 从这个版本开始每播放一次 TTS
-    将会自动使时间以秒为单位增加一单位。
-[i] 下个版本将跟进最新弹幕姬 API, 外加一系列随 API 更新的附属功能。
-
-v1.0.3, build 44 ->
-[/] 修复一个导致管理页面出错的问题。
-[/] 完善统计系统。
-[+] 为部分控件增加 ToolTips.
-
-v1.0.3, build 43 ->
-[+] 按 ESC 可以直接关闭设置窗口。
-[+] 允许用户自定义弹幕引擎(+ .NET Framework 自带引擎)
-[i] 取决于系统完整性，部分盗版系统上无法正常工作。
-[+] 新增常见问题（FAQ）入口点。
-
-v1.0.3, build 41 ->
-[+] 根据用户 [三冥九夜] 在留言板的建议，
-    新增了 自定义弹幕读出内容 以及 自定义礼物读出内容 的选项。
-[+] 毫无卵用: 检测 NAudio 是否存在，防止进一步出错（
-[+] 改善整体稳定性。
-[+] 插件管理页面终于不是丑到家的宋体了。
-
-[i] 用户 [小小小小小马] 所提出的逐条读出弹幕功能正在开发。
-
-v1.0.2, build 32 ->
-[+] 根据代码分析做了一定优化。
-    Code Analysis Complete -- 0 error(s), 0 warning(s)
-[-] 根据 VS 三千瓦电灯泡去掉了多余的 Imports.
-    当前全局 Imports:
-    Microsoft.VisualBasic
-    System
-    System.Collections
-    System.Collections.Generic
-    System.Data
-    System.Diagnostics
-    System.Linq
-    System.Xml.Linq
-[-] 去掉了在插件文件夹内释放的多余的一个 NAudio.
-[+] 在 Including 中新增了两个暂时没啥用的轮子 ->
-    GetHttpStatusCode ->
-        向钦定的 URL 发送钦定的请求，获取返回的状（真）态（他）码（妈）。
-    GetIP ->
-        通过官方钦定 Elepover's APIs 获取 IP。
-    NetworkWatchdog ->
-        监测网络连接状态。
-[+] 新增统计系统。（喂明明写了一大堆代码才这么一句话真的好吗
-[/] 于是我又把调试信息改成了统计数据（捂脸逃
-
-v1.0.2, build 30 ->
-[+] 设置窗口中所有选项及按钮均对应新增了 ToolTip.
-[+] 自动缓存清理选项现已默认启用。
-[/] 更新弹幕姬中所显示插件信息。
-[i] NoBlockMsgBox 即将作为一个新的 repo 开发。
-
-v1.0.2, build 27 ->
-[+] 新增 TTS 冷却选项。
-[+] 使用新线程打开管理窗口，取代弹幕姬主进程。
-[/] 改善设置系统。
-[/] 解决部分代码阻塞弹幕姬主进程的问题。
-[!] 此版本未经系统性调试，如有问题请及时反馈。
-
-v1.0.2, build 25 ->
-[+] 提高一个版本号（雾
-[+] 在部分代码块新增了大批注释。
-[i] TTSDanmaku 即将开源。
-
-
-v1.0.1, build 24 -> 最后发行版本
-[+] 尴尬...忘了写关于部分的链接代码了...我还是升级一个 build 吧。
-
-v1.0.1, build 23
-[+] 自动清理缓存功能目前已经工作，默认停用。
-[+] 手动清理缓存时添加文件占用警告。
-[+] 网络问题导致的 TTS 下载失败，默认重试 5 次。
-[+] 新增 关于 TTSDanmaku 选项。
-[/] 降低启用时对弹幕姬主线程的阻塞。
-[/] 改进调试模式输出。
-[/] 修改弹幕姬中所显示版本号格式为 主版本.主版本(2).当前版本.编译次数
-
-v1.0.1, build 21
-[+] 修复一个导致弹幕姬崩溃的问题。
-
-v1.0.1, build 19
-[/] 重写旧版 TTSDanmaku
-```
+详细更新日志，请前往 [GitHub Repo](https://github.com/Elepover/Plugin-TTSDanmaku#更新日志) 查看。
 
 注意事项
 ----
@@ -201,22 +74,7 @@ v1.0.1, build 19
 自定义弹幕 / 礼物读出内容格式
 ----------------
 
-自定义内容中的以下文本将被替换:
-```
-$USER 弹幕/礼物发送者
-$COUNT 收到的礼物数目
-$GIFT 礼物名称
-$DM 弹幕内容
-```
-比如默认值:
-```
-收到来自 $USER 的 $COUNT 个 $GIFT。
-```
-替换后变成:
-```
-收到来自 Elepover 的 10 个 小拳拳。
-```
-如果文本框为红色，说明有不应该出现的变量出现，将不会保存自定义文本。
+参见 [TTSDanmaku Wiki](https://github.com/Elepover/Plugin-TTSDanmaku/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%B9%E5%B9%95---%E7%A4%BC%E7%89%A9%E5%86%85%E5%AE%B9%E5%8F%98%E9%87%8F%E8%AF%B4%E6%98%8E)
 
 历史下载
 ----
