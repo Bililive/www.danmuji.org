@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.1.2
-plugin_update_datetime: 2017-06-15 18:55:46 +0800
+plugin_version: 1.1.3
+plugin_update_datetime: 2017-08-04 17:25:56 +0800
 plugin_update_desc: |-
-  接受反馈：去除用户名必须不少于6个字的限制
+  接受反馈：在rtmp界面增加红字提醒
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 ---
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网及论坛提供下载,请勿转载
 
 更新日志
 ---
+- 2017-08-04 17:25:56 接受反馈：在rtmp界面增加红字提醒
 - 2017-06-15 18:55:46 接受反馈：去除用户名必须不少于6个字的限制
 - 2017-06-14 12:27:30 更新开启直播方法，解决无法开播的问题
 - 2017-06-08 14:27:28 添加了"模板"功能
