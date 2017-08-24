@@ -8,8 +8,29 @@ plugin_name: TTSDanmaku
 plugin_desc: 使用 TTS 读出收到的弹幕和礼物！
 plugin_version: 1.0.4.54
 #plugin_update: 2017.08.24
-plugin_update_datetime: 2017-08-24 17:45:00 +0800
-#plugin_update_desc: |-
+plugin_update_datetime: 2017-08-24 22:03:00 +0800
+plugin_update_desc: |-
+  [i] This is the Grand Update.
+  [/] 重新设计设置窗口布局，使用标签页来区分。
+  [+] 加入用户黑白名单功能。
+  [+] 加入礼物黑白名单功能。
+  [+] 更细致的版本区分(Stable, Beta, Live)
+  [+] 现在可以在 AppVeyor 上获得实时更新的 TTSDanmaku Live 版。
+  [i] 放心，你们在 AppVeyor 上面获得的插件全是 Live 版（逃
+  [i] Beta 版可以通过自己编译获得。
+  [+] 提高稳定性。
+  [+] 插件运行环境页面。
+  [+] 完善 Layouts 和 TabIndexes.
+  [+] 黑白名单现在可以屏蔽 UID 了。
+  [/] 修改 THANKS.md 为 CONTRIBUTING.md, 以符合 Community Standards.
+  [+] 加入设置窗口右上角小提醒。
+  [/] 修改窗口颜色。
+  [+] 加入版权声明。
+  [+] 加入保存警告。
+  [+] 加入一个程序媛一般都能找到的彩蛋。
+  [+] 进化绝大多数常用窗口到 WPF。
+  [-] 弃用 TTS 冷却功能。
+  [/] 修改更新检查为弹幕姬 API。
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/TTSDanmaku/TTSDanmaku.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
