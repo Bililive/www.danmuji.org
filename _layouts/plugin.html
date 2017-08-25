@@ -1,77 +1,79 @@
-<html><head>
+<html>
+
+<head>
     {% include head.html %}
-	<title>{{ page.title | escape }} - {{ site.title | escape}}</title>
-    <script>var plugin_download_url='{{ page.plugin_dllink }}';var plugin_id='{{ page.relative_path | replace: "_plugin/", "" | replace: ".md", ""}}';</script>
+    <title>{{ page.title | escape }} - {{ site.title | escape}}</title>
 </head>
+
 <body class="w3-theme-l5">
     <div id="main-container">
-    <!-- Navbar -->
-    {% include navbar.html %}
-    <!-- Page Container -->
-    <div class="w3-container w3-content" id="page-container" style="max-width:1400px;margin-top:20px;">
-        <!-- The Grid -->
-        <div class="w3-row">
-            <!-- Left Column -->
-            <div class="w3-col m3">
-                <!-- Profile -->
-                <div class="w3-card-2 w3-round w3-white w3-margin">
-                    <div class="w3-container">
-                        <h4 class="w3-center">插件信息</h4><hr>
-                        <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>作者：<span id="author">{{ page.plugin_author }}</span></p>
-                        <p><i class="fa fa-info fa-fw w3-margin-right w3-text-theme"></i>插件名：<span id="plugin_name">{{ page.plugin_name }}</span></p>
-                        <p><i class="fa fa-code-fork fa-fw w3-margin-right w3-text-theme"></i>版本号：<span id="plugin_version">{{ page.plugin_version }}</span></p>
-                        <p><i class="fa fa-calendar fa-fw w3-margin-right w3-text-theme"></i>更新日期：<span id="plugin_update">{{ page.plugin_update_datetime | date: "%Y.%m.%d" }}</span></p>{% if page.plugin_dlnote %}
-                        <p><i class="fa fa-exclamation-triangle fa-fw w3-margin-right w3-text-theme"></i>下载说明：{{ page.plugin_dlnote }}</p>{% endif %}
-                        <p><button class="w3-btn w3-btn-block w3-theme-l4" onclick="Download()">下载</button></p>
+        <!-- Navbar -->
+        {% include navbar.html %}
+        <!-- Page Container -->
+        <div class="w3-container w3-content" id="page-container" style="max-width:1400px;margin-top:20px;">
+            <!-- The Grid -->
+            <div class="w3-row">
+                <!-- Left Column -->
+                <div class="w3-col m3">
+                    <!-- Profile -->
+                    <div class="w3-card-2 w3-round w3-white w3-margin">
+                        <div class="w3-container">
+                            <h4 class="w3-center">插件信息</h4>
+                            <hr>
+                            <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>作者：<span id="author">{{ page.plugin_author }}</span></p>
+                            <p><i class="fa fa-info fa-fw w3-margin-right w3-text-theme"></i>插件名：<span id="plugin_name">{{ page.plugin_name }}</span></p>
+                            <p><i class="fa fa-code-fork fa-fw w3-margin-right w3-text-theme"></i>版本号：<span id="plugin_version">{{ page.plugin_version }}</span></p>
+                            <p><i class="fa fa-calendar fa-fw w3-margin-right w3-text-theme"></i>更新日期：<span id="plugin_update">{{ page.plugin_update_datetime | date: "%Y.%m.%d" }}</span></p>{%
+                            if page.plugin_dlnote %}
+                            <p><i class="fa fa-exclamation-triangle fa-fw w3-margin-right w3-text-theme"></i>下载说明：{{ page.plugin_dlnote
+                                }}
+                            </p>{% endif %}
+                            <p><button class="w3-btn w3-btn-block w3-theme-l4" onclick="Download()">下载</button></p>
+                        </div>
+                    </div><br>
+                    <!-- End Left Column -->
+                </div>
+                <!-- Middle Column -->
+                <div class="w3-col m7">
+                    <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
+                        <h2 style="margin-left:20px">{{ page.plugin_name }}</h2>
+                        <p class="w3-opacity" style="margin-left:20px">{{ page.plugin_desc }}</p>
+                        <hr class="w3-clear">
+                        <div class="w3-row-padding">{{ content }}</div>
                     </div>
-                </div><br>
-            <!-- End Left Column -->
-			</div>
-<!-- Middle Column -->
-<div class="w3-col m7">
-    <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
-    <h2 style="margin-left:20px">{{ page.plugin_name }}</h2>
-    <p class="w3-opacity" style="margin-left:20px">{{ page.plugin_desc }}</p>
-    <hr class="w3-clear">
-    <div class="w3-row-padding">{{ content }}</div></div>
-	{% if page.auther %}<p class="w3-right w3-opacity">页面编辑：{{ page.auther }}</p>{% endif %}
-<!-- End Middle Column -->
-</div>
-            <!-- End Grid -->
-			</div>
-        <!-- End Page Container -->
-		</div><br>
+                    {% if page.auther %}
+                    <p class="w3-right w3-opacity">页面编辑：{{ page.auther }}</p>{% endif %}
+                    <!-- End Middle Column -->
+                </div>
+                <!-- End Grid -->
+            </div>
+            <!-- End Page Container -->
+        </div><br>
         <!-- Footer -->
-		{% include footer.html %}
-	</div>
-	
-<script>
-function Download(){
-//总有人死都不看使用说明
-setTimeout(RealDownload, 1500);
-try{
-notie.alert({ type: 4, text: '别忘了看本页面上的插件使用说明！', time: 6 });
-}
-catch(error){// 不支持 Promise 的浏览器，惊了我都
-alert("别忘了看本页面上的插件使用说明！");
-}
-}
-function RealDownload() {
-    //var win = window.open(plugin_download_url, '_blank');
-	document.getElementById('download_iframe').src = plugin_download_url;
-    if (true/*win*/) {
-        var tongji_action = "下载弹出成功";
-        //Browser has allowed it to be opened
-        //win.focus();
-    } else {
-        //Browser has blocked it
-        var tongji_action = "下载弹出失败";
-        alert('浏览器阻止了弹出窗口\n下载地址：' + plugin_download_url);
-    }
-	ga('send', 'event', '插件介绍页', tongji_action, plugin_id);
-	_paq.push(['trackEvent', '插件介绍页',tongji_action,plugin_id]);
-    _czc.push(﻿['_trackEvent','插件介绍页',tongji_action,plugin_id]);
-}
-</script>
-<iframe id="download_iframe" style="display:none!important;"></iframe>
-</body></html>
+        {% include footer.html %}
+    </div>
+
+    <script>
+        function Download() {
+            var download_url = '{{ page.plugin_dllink }}';
+            var id = '{{ page.relative_path | replace: "_plugin/", "" | replace: ".md", ""}}';
+            swal({
+                title: '请记得阅读本页面上的插件使用说明',
+                confirmButtonText: '下载',
+                showLoaderOnConfirm: true,
+                preConfirm: function () {
+                    return new Promise(function (resolve, reject) {
+                        setTimeout(function () {
+                            document.getElementById('download_iframe').src = download_url;
+                            ga('send', 'event', '插件介绍页', '下载弹出成功', id);
+                            setTimeout(resolve, 2e3);
+                        }, 15e2);
+                    })
+                }
+            })
+        }
+    </script>
+    <iframe id="download_iframe" style="display:none!important;"></iframe>
+</body>
+
+</html>
