@@ -32,6 +32,29 @@
                     setCookie('maintain20170706', '1', .25);
                 }
                 */
+                if (!getCookie('questionnaire20170825')) {
+                    notie.confirm({
+                        text: '要参与弹幕姬功能需求调查吗？<br>统计结果将用于决定对弹幕姬功能的调整',
+                        submitText: '打开问卷',
+                        cancelText: '拒绝',
+                        position: 'bottom',
+                        cancelCallback: function () {
+                            setCookie('questionnaire20170825', '1', 1);
+                        },
+                        submitCallback: function () {
+                            if (null === window.open("https://wj.qq.com/s/1523138/a61d")) {
+                                notie.alert({
+                                    type: 3,
+                                    text: '问卷打开失败 ：（',
+                                    position: 'bottom',
+                                    time: 1
+                                })
+                            } else {
+                                setCookie('questionnaire20170825', '1', 3);
+                            }
+                        }
+                    })
+                }
             }
 
             var setCookie = function (name, value, days) {
