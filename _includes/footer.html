@@ -32,26 +32,28 @@
                 }
                 */
                 if (!getCookie('questionnaire20170825')) {
-                    swal({
-                        title: '要参与弹幕姬功能需求调查吗？',
-                        text: "统计结果将用于决定对弹幕姬功能的调整",
-                        showCancelButton: true,
-                        confirmButtonText: '打开问卷',
-                        cancelButtonText: '拒绝'
-                    }).then(function () {
-                        if (null === window.open("https://wj.qq.com/s/1523138/a61d")) {
-                            ga('send', 'event', '问卷调查20170825', '打开失败');
-                            swal('问卷打开失败', null, 'error')
-                        } else {
-                            ga('send', 'event', '问卷调查20170825', '打开成功');
-                            setCookie('questionnaire20170825', '1', 3);
-                        }
-                    }, function (dismiss) {
-                        if (dismiss === 'cancel') {
-                            ga('send', 'event', '问卷调查20170825', '拒绝参与');
-                            setCookie('questionnaire20170825', '1', .5);
-                        }
-                    })
+                    setTimeout(function () {
+                        swal({
+                            title: '要参与弹幕姬功能需求调查吗？',
+                            text: "统计结果将用于决定对弹幕姬功能的调整",
+                            showCancelButton: true,
+                            confirmButtonText: '打开问卷',
+                            cancelButtonText: '拒绝'
+                        }).then(function () {
+                            if (null === window.open("https://wj.qq.com/s/1523138/a61d")) {
+                                ga('send', 'event', '问卷调查20170825', '打开失败');
+                                swal('问卷打开失败', null, 'error')
+                            } else {
+                                ga('send', 'event', '问卷调查20170825', '打开成功');
+                                setCookie('questionnaire20170825', '1', 3);
+                            }
+                        }, function (dismiss) {
+                            if (dismiss === 'cancel') {
+                                ga('send', 'event', '问卷调查20170825', '拒绝参与');
+                                setCookie('questionnaire20170825', '1', .5);
+                            }
+                        })
+                    }, 5e3)
                 }
             }
 
