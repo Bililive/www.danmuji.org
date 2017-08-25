@@ -14,11 +14,13 @@
         <script src="https://unpkg.com/notie"></script>
         <script>
             (function () {
-                if (window.attachEvent)
-                { window.attachEvent('onload', loadComplete); }
-                else
-                { window.onload = loadComplete; }
+                if (window.attachEvent) {
+                    window.attachEvent('onload', loadComplete);
+                } else {
+                    window.onload = loadComplete;
+                }
             })();
+
             function loadComplete() {
                 /*
                 if (!getCookie('maintain20170706')) {
@@ -38,8 +40,7 @@
                     var date = new Date();
                     date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
                     expires = "; expires=" + date.toGMTString();
-                }
-                else {
+                } else {
                     expires = "";
                 }
                 document.cookie = name + "=" + value + expires + "; path=/";
