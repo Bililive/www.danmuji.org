@@ -31,7 +31,14 @@
                     setCookie('maintain20170706', '1', .25);
                 }
                 */
-                if (!getCookie('questionnaire20170825')) {
+                setTimeout(showQuestionnaire, 3e4);
+                // 30 秒后尝试显示问卷提醒
+            }
+
+            function showQuestionnaire() {
+                // 之前没有参与问卷 && 当前页面没有参与问卷 && 当前没有其他正在显示的 swal
+                if (!getCookie('questionnaire20170825') && !window.quedone && !swal.isVisible()) {
+                    window.quedone = true;
                     setTimeout(function () {
                         swal({
                             title: '要参与弹幕姬功能需求调查吗？',
@@ -53,7 +60,7 @@
                                 setCookie('questionnaire20170825', '1', .5);
                             }
                         })
-                    }, 5e3)
+                    }, 1e3)
                 }
             }
 
