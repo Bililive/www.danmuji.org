@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.0.8
-plugin_update_datetime: 2017-08-27 12:18:16 +0800
+plugin_version: 1.0.9
+plugin_update_datetime: 2017-08-28 18:06:28 +0800
 plugin_update_desc: |-
-  自定义回复允许使用正则表达式，发送多条弹幕的时候会延迟1秒，以解决发送过于频繁被服务器拒收的问题
+  修复了可能循环执行自定义回复的问题
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
@@ -52,6 +52,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 更新日志
 ---
+- 2017-08-28 18:06:28 修复了可能循环执行自定义回复的问题
 - 2017-08-27 12:18:16 自定义回复允许使用正则表达式,发送多条弹幕的时候会延迟1秒,以解决发送过于频繁被服务器拒收的问题
 - 2017-08-20 18:29:28 修复了发送弹幕不止一条时报错的问题
 - 2017-08-19 22:30:11 修复了自动回复的两个文本框无法换行的问题，以及礼物感谢的三个文本框无法换行的问题。固定了公告功能的随机数种子（也就是减少了重复发一条公告的概率）。解决了不明报错的问题
