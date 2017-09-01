@@ -37,6 +37,7 @@
 
             function showQuestionnaire() {
                 // 之前没有参与问卷 && 当前页面没有参与问卷 && 当前没有其他正在显示的 swal
+                if(false)
                 if (!getCookie('questionnaire20170825') && !window.quedone && !swal.isVisible()) {
                     window.quedone = true;
                     setTimeout(function () {
