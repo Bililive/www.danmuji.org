@@ -13,8 +13,8 @@ plugin_update_datetime: 2017-08-04 16:47:00 +0800
 plugin_dllink: /resource/DGJ/DGJ2.0.0.7z
 plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
-作者的[直播间15253](https://live.bilibili.com/15253)
-有问题可以去[弹幕姬讨论区](https://f.danmuji.cn)发帖询问
+作者的[直播间15253](https://live.bilibili.com/15253)  
+本页面最下面的页脚处有QQ群（问问题之前请先通读本使用说明）
 
 “点歌姬”和“B站弹幕姬”是独立工作的程序，支持和所有直播软件同时使用。
 
