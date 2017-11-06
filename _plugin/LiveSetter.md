@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.1.5
-plugin_update_datetime: 2017-11-06 14:10:03 +0800
+plugin_version: 1.1.5.1
+plugin_update_datetime: 2017-11-06 18:52:47 +0800
 plugin_update_desc: |-
-  再次修复cookie文件夹不会自动创建的问题；使插件开关播功能适应新版直播间
+  根据用户反馈，更改了一些方法以适应新版直播间
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2017-11-06 18:52:47 根据用户反馈，更改了一些方法以适应新版直播间
 - 2017-11-06 14:10:03 再次修复cookie文件夹不会自动创建的问题；使插件开关播功能适应新版直播间
 - 2017-10-02 09:39:03 修复了未安装登录中心时无法登录的问题，修复了cookie文件夹不会自动创建的问题
 - 2017-08-04 17:25:56 接受反馈：在rtmp界面增加红字提醒
