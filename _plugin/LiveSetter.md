@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.1.7
-plugin_update_datetime: 2017-11-21 12:20:36 +0800
+plugin_version: 1.1.7.1
+plugin_update_datetime: 2017-11-29 12:30:57 +0800
 plugin_update_desc: |-
-  更新接口解决404问题
+  稳定性更新
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -56,6 +56,7 @@ Todo
 
 更新日志
 ---
+- 2017-11-29 12:30:57 稳定性更新
 - 2017-11-21 12:20:36 更新接口解决404问题
 - 2017-11-12 15:10:35 更改基本信息的提交方法，以避免简介被打乱的情况
 - 2017-11-06 18:52:47 根据用户反馈，更改了一些方法以适应新版直播间
