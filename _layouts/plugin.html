@@ -75,8 +75,8 @@
             var id = '{{ page.relative_path | replace: "_plugin/", "" | replace: ".md", ""}}';
             swal({
                 title: '提醒',
-                text: '请记得阅读本页面上的插件使用说明',
-                confirmButtonText: '下载插件',
+                text: '请务必阅读本页面上的插件使用说明',
+                confirmButtonText: '我保证会阅读使用说明',
                 showLoaderOnConfirm: true,
                 preConfirm: function () {
                     return new Promise(function (resolve, reject) {
