@@ -1,0 +1,16 @@
+{
+  "name": "bililive_dm_website_autobuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Genteure",
+  "private": true,
+  "dependencies": {
+    "clean-css": "^4.1.9",
+    "githubhook": "^1.9.1",
+    "html-minifier": "^3.5.5"
+  }
+}
