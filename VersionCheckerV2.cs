@@ -1,6 +1,6 @@
 /*
-µ¯Ä»¼§ÖĞÒÑÓĞ Newtonsoft.Json 7.0.1
-¾¡Á¿Ê¹ÓÃÏàÍ¬°æ±¾£¬±ÜÃâÖØ¸´¼ÓÔØ²»Í¬°æ±¾Ö®ÀàµÄÎÊÌâ
+å¼¹å¹•å§¬ä¸­å·²æœ‰ Newtonsoft.Json 7.0.1
+å°½é‡ä½¿ç”¨ç›¸åŒç‰ˆæœ¬ï¼Œé¿å…é‡å¤åŠ è½½ä¸åŒç‰ˆæœ¬ä¹‹ç±»çš„é—®é¢˜
 
 using Newtonsoft.Json.Linq;
 using System;
@@ -11,75 +11,75 @@ using System.Net;
 
 internal class VersionChecker
 {
-    #region -- ³£Á¿ --
+    #region -- å¸¸é‡ --
 
     /// <summary>
-    /// Ä¬ÈÏ·şÎñÆ÷µØÖ·
+    /// é»˜è®¤æœåŠ¡å™¨åœ°å€
     /// </summary>
     public const string DEFAULT_BASE_URL = "https://www.danmuji.cn";
 
     /// <summary>
-    /// APIµÄÂ·¾¶
+    /// APIçš„è·¯å¾„
     /// </summary>
     public const string API_PATH = "/api/v2/";
 
     /// <summary>
-    /// ²å¼ş½éÉÜÒ³µÄÂ·¾¶
+    /// æ’ä»¶ä»‹ç»é¡µçš„è·¯å¾„
     /// </summary>
     public const string WEB_PATH = "/plugins/";
 
     #endregion
 
-    #region -- ±äÁ¿ --
+    #region -- å˜é‡ --
     private string BaseUrl;
 
     /// <summary>
-    /// ×îºóÒ»¸ö³ö´íµÄException
+    /// æœ€åä¸€ä¸ªå‡ºé”™çš„Exception
     /// </summary>
     public Exception lastException { get; private set; } = null;
 
     /// <summary>
-    /// ²å¼şID
+    /// æ’ä»¶ID
     /// </summary>
     public string Id { get; private set; } = "example";
 
     /// <summary>
-    /// API·µ»ØµÄ²å¼şÃû×Ö
+    /// APIè¿”å›çš„æ’ä»¶åå­—
     /// </summary>
     public string Name { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄ²å¼ş×÷Õß
+    /// APIè¿”å›çš„æ’ä»¶ä½œè€…
     /// </summary>
     public string Author { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄ×îĞÂ°æ±¾ºÅ
+    /// APIè¿”å›çš„æœ€æ–°ç‰ˆæœ¬å·
     /// </summary>
     public Version Version { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄ²å¼şËµÃ÷
+    /// APIè¿”å›çš„æ’ä»¶è¯´æ˜
     /// </summary>
     public string Description { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄ¸üĞÂÊ±¼ä
+    /// APIè¿”å›çš„æ›´æ–°æ—¶é—´
     /// </summary>
     public DateTime UpdateDateTime { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄ¸üĞÂËµÃ÷
+    /// APIè¿”å›çš„æ›´æ–°è¯´æ˜
     /// </summary>
     public string UpdateDescription { get; private set; }
 
     /// <summary>
-    /// API·µ»ØµÄÏÂÔØµØÖ·
+    /// APIè¿”å›çš„ä¸‹è½½åœ°å€
     /// </summary>
     public Uri DownloadUrl { get; private set; }
 
     /// <summary>
-    /// ÓÃ»§²é¿´ÓÃµÄÒ³ÃæµØÖ·
+    /// ç”¨æˆ·æŸ¥çœ‹ç”¨çš„é¡µé¢åœ°å€
     /// </summary>
     public Uri WebPageUrl
     {
@@ -88,24 +88,24 @@ internal class VersionChecker
     }
 
     /// <summary>
-    /// API·µ»ØµÄÏÂÔØËµÃ÷
+    /// APIè¿”å›çš„ä¸‹è½½è¯´æ˜
     /// </summary>
     public string DownloadNote { get; private set; }
 
     #endregion
 
     /// <summary>
-    /// ĞÂ½¨Ò»¸ö°æ±¾¼ì²éÀà
+    /// æ–°å»ºä¸€ä¸ªç‰ˆæœ¬æ£€æŸ¥ç±»
     /// </summary>
-    /// <param name="id">²å¼şID</param>
+    /// <param name="id">æ’ä»¶ID</param>
     public VersionChecker(string id) : this(id, DEFAULT_BASE_URL)
     { }
 
     /// <summary>
-    /// ĞÂ½¨Ò»¸öÖ¸¶¨·şÎñÆ÷µØÖ·µÄ°æ±¾¼ì²éÀà
+    /// æ–°å»ºä¸€ä¸ªæŒ‡å®šæœåŠ¡å™¨åœ°å€çš„ç‰ˆæœ¬æ£€æŸ¥ç±»
     /// </summary>
-    /// <param name="id">²å¼şID</param>
-    /// <param name="baseurl">·şÎñÆ÷µØÖ·</param>
+    /// <param name="id">æ’ä»¶ID</param>
+    /// <param name="baseurl">æœåŠ¡å™¨åœ°å€</param>
     public VersionChecker(string id, string baseurl)
     {
         this.Id = id;
@@ -113,9 +113,9 @@ internal class VersionChecker
     }
 
     /// <summary>
-    /// ´Ó·şÎñÆ÷»ñÈ¡ĞÅÏ¢
+    /// ä»æœåŠ¡å™¨è·å–ä¿¡æ¯
     /// </summary>
-    /// <returns>»ñÈ¡ÊÇ·ñ³É¹¦</returns>
+    /// <returns>è·å–æ˜¯å¦æˆåŠŸ</returns>
     public bool FetchInfo()
     {
         try
@@ -125,7 +125,7 @@ internal class VersionChecker
             JObject j = JObject.Parse(json);
 
             if(j["id"].ToString() != this.Id)
-            { lastException = new Exception("API·µ»ØID²»ÕıÈ·"); return false; }
+            { lastException = new Exception("APIè¿”å›IDä¸æ­£ç¡®"); return false; }
             else
             {
                 this.Name = j["name"].ToString();
@@ -150,21 +150,21 @@ internal class VersionChecker
     }
 
     /// <summary>
-    /// ¼ì²éÊÇ·ñ¾ßÓĞ¸üĞÂµÄ°æ±¾
+    /// æ£€æŸ¥æ˜¯å¦å…·æœ‰æ›´æ–°çš„ç‰ˆæœ¬
     /// </summary>
-    /// <param name="version">µ±Ç°°æ±¾ºÅ</param>
-    /// <returns>¼ì²é½á¹û</returns>
+    /// <param name="version">å½“å‰ç‰ˆæœ¬å·</param>
+    /// <returns>æ£€æŸ¥ç»“æœ</returns>
     public bool hasNewVersion(string version)
     { return hasNewVersion(new Version(version)); }
 
     /// <summary>
-    /// ¼ì²éÊÇ·ñ¾ßÓĞ¸üĞÂµÄ°æ±¾
+    /// æ£€æŸ¥æ˜¯å¦å…·æœ‰æ›´æ–°çš„ç‰ˆæœ¬
     /// </summary>
-    /// <param name="version">µ±Ç°°æ±¾ºÅ</param>
-    /// <returns>¼ì²é½á¹û</returns>
+    /// <param name="version">å½“å‰ç‰ˆæœ¬å·</param>
+    /// <returns>æ£€æŸ¥ç»“æœ</returns>
     public bool hasNewVersion(Version version)
     { return (version.CompareTo(this.Version) < 0); }
-    // version¶ÔÏó±È²ÎÊıĞ¡£¨Ö®Ç°£¬olderµÄ°æ±¾£©
+    // versionå¯¹è±¡æ¯”å‚æ•°å°ï¼ˆä¹‹å‰ï¼Œolderçš„ç‰ˆæœ¬ï¼‰
 
 
     private string HttpGet(Uri uri)
