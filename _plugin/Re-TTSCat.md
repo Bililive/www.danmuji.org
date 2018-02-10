@@ -53,14 +53,12 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 - 无论您是否启用插件，启动弹幕姬时均会尝试激活插件。
 - 若丢失 `NAudio.dll` 文件，插件将会显示警告信息并拒绝执行任何操作，直到您补回 `NAudio.dll` 文件并重启弹幕姬。
 - 启用调试模式会有一些好玩的东西，但是请注意：**后果自负**。
-- 如果您需要尝试自行排错，或想向我更详细地反馈错误，请将 `Re-TTSCat.pdb` 文件同时复制到插件文件夹中。
 
 ## 文件结构
 
 ```
 - Plugins           [D] 弹幕姬插件目录。
 |-- Re-TTSCat.dll   [F] 插件本体。
-|-- Re-TTSCat.pdb   [F] (可选)调试符号文件，有助于输出更详细的错误信息。
 |-- NAudio.dll      [F] NAudio 播放库。
 |-- Re-TTSCat       [D] 插件配置目录。
 | |-- TTSCat.xml    [F] 插件配置文件。
@@ -74,10 +72,6 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 启动：
 
 ![启动](/resource/Re-TTSCat/startup.png)
-
-快捷菜单：
-
-![快捷菜单](/resource/Re-TTSCat/quickmenu.png)
 
 管理：
 
