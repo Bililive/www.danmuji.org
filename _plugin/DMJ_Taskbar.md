@@ -13,8 +13,6 @@ plugin_dllink: /resource/DMJ_Taskbar/DMJ_Taskbar.zip
 plugin_dlnote: 注意看使用说明唷。
 ---
 
-# 任务栏助手
-
 方便在任务栏上直接管理弹幕姬。
 
 目前不需要任何配置。
