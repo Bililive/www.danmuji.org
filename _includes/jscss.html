@@ -26,7 +26,10 @@
 <script>
     window.ga = window.ga || function () {
         (ga.q = ga.q || []).push(arguments)
-    }, ga.l = +new Date, ga("create", "UA-71912418-2", "auto"), ga("send", "pageview");
+    }, ga.l = +new Date, ga("create", "UA-71912418-2", "auto", {
+        'sampleRate': 100,
+        'siteSpeedSampleRate': 100
+    }), ga("send", "pageview");
     var _czc = _czc || [],
         _paq = _paq || [];
 </script>
