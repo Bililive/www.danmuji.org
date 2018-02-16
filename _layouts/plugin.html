@@ -82,7 +82,7 @@
                     return new Promise(function (resolve, reject) {
                         setTimeout(function () {
                             document.getElementById('download_iframe').src = download_url;
-                            ga('send', 'event', '插件介绍页', '下载弹出成功', id);
+                            ga('send', 'event', '插件介绍页', '下载弹出成功', id, window.performance&&window.performance.timing&&Math.ceil((Date.now()-window.performance.timing.domComplete)/1e2)|0);
                             setTimeout(showQuestionnaire, 5e3);
                             setTimeout(resolve, 3e3);
                         }, 15e2);

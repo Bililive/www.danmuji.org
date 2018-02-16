@@ -27,12 +27,24 @@ layout: null
                     <div id="download-buttons">
                         <p class="text-center">最新版本： 1.0.1.130 (2017.10.21)</p>
                         <h4>Windows 7 / 8 / 10</h4>
-                        <a class="btn btn-default btn-block" rel="nofollow" href="https://soft.ceve-market.org/bilibili_dm/setup.exe" onclick="ga('send', 'event', '首页', '下载弹幕姬');showQuestionnaire();" target="_blank" role="button"><i class="fas fa-download icon-with-text"></i>下载安装包</a>
+                        <a class="btn btn-default btn-block" rel="nofollow" href="https://soft.ceve-market.org/bilibili_dm/setup.exe" onclick="btn_download_onclick" target="_blank" role="button"><i class="fas fa-download icon-with-text"></i>下载安装包</a>
+                        <a class="btn btn-default btn-block" href="/plugins/" role="button"><i class="fas fa-list icon-with-text"></i>插件列表</a>
 						<!--
 						<br>
 						<h4>有使用问题？</h4>
 						<a class="btn btn-default btn-block" href="https://f.danmuji.cn" target="_blank" role="button">访问弹幕姬讨论区</a>
-						-->
+                        -->
+                        <script>
+                            function btn_download_onclick() {
+                                ga('send',
+                                    {
+                                        hitType: 'event',
+                                        eventCategory: '首页',
+                                        eventAction: '下载弹幕姬',
+                                        eventValue: window.performance && window.performance.timing && Math.ceil((Date.now() - window.performance.timing.domComplete) / 1e2) | 0
+                                    });
+                            }
+                        </script>
                     </div>
                     <br>
                 </div><div class="col-md-9 vcenter">
@@ -104,7 +116,7 @@ layout: null
                 </div>
                 <div id="cite_note-3">[3]:
                     <span><b><a href="#cite_ref-3">^</a></b></span>
-                    <span>弹幕姬插件开发SDK<a rel="nofollow" target="_blank" href="https://soft.ceve-market.org/bilibili_dm/sdk.7z"> [下载] </a>（.NET4，最后更新：2017.5.15）</span>
+                    <span>弹幕姬插件开发SDK<a rel="nofollow" target="_blank" href="https://soft.ceve-market.org/bilibili_dm/sdk.7z"> [下载] </a>(.NET Framework 4)</span>
                 </div>
             </div>
         </section>
