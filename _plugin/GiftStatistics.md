@@ -1,56 +1,61 @@
 ---
 # hide: true
-title: ç¤¼ç‰©ç»Ÿè®¡
-auther: Executorä¸¶
-plugin_author: Executorä¸¶
-plugin_name: ç¤¼ç‰©ç»Ÿè®¡
-plugin_desc: ç»Ÿè®¡æ”¶åˆ°çš„ç¤¼ç‰©,å¯å­˜ä¸ºæ–‡æœ¬ä¾›ç›´æ’­è½¯ä»¶ä½¿ç”¨
-plugin_version: 1.0.0
-plugin_update_datetime: 2018-02-11 12:50:02 +0800
+title: ÀñÎïÍ³¼Æ
+auther: ExecutorØ¼
+plugin_author: ExecutorØ¼
+plugin_name: ÀñÎïÍ³¼Æ
+plugin_desc: Í³¼ÆÊÕµ½µÄÀñÎï,¿É´æÎªÎÄ±¾¹©Ö±²¥Èí¼þÊ¹ÓÃ
+plugin_version: 1.0.1
+plugin_update_datetime: 2018-02-17 20:27:35 +0800
 plugin_update_desc: |-
-
+  ÐÞ¸´ÁËË«»÷×´Ì¬»á±¨´íµÄÎÊÌâ£»ÐÞ¸´ÁËÎÄ¼þ¼ÐÎ»ÖÃ²»¶ÔµÄÎÊÌâ¡£
 plugin_dllink: /resource/GiftStatistics/GiftStatistics.zip
-plugin_dlnote: åªåœ¨å¼¹å¹•å§¬å®˜ç½‘åŠè®ºå›æä¾›ä¸‹è½½,è¯·å‹¿è½¬è½½
+plugin_dlnote: Ö»ÔÚµ¯Ä»¼§¹ÙÍø¼°ÂÛÌ³Ìá¹©ÏÂÔØ,ÇëÎð×ªÔØ
 ---
 
-è‹¥æ’ä»¶æœ‰ä»»ä½•é—®é¢˜ï¼Œäº¦æˆ–å¯¹æ’ä»¶æœ‰å»ºè®®ï¼Œè¯·å‘é‚®ä»¶è‡³ 847529602@qq.com
+Èô²å¼þÓÐÈÎºÎÎÊÌâ£¬Òà»ò¶Ô²å¼þÓÐ½¨Òé£¬Çë·¢ÓÊ¼þÖÁ 847529602@qq.com
 
-**â€»æœ¬æ’ä»¶ä¾èµ–.NET Framework 4.6.2æ¡†æž¶,è‹¥ä½ çš„è®¡ç®—æœºä¸­ç¼ºå°‘æ­¤æ¡†æž¶,å¯èƒ½ä¼šå¯¼è‡´æ’ä»¶æ— æ³•æ­£å¸¸å·¥ä½œâ€»**
+**¡ù±¾²å¼þÒÀÀµ.NET Framework 4.6.2¿ò¼Ü,ÈôÄãµÄ¼ÆËã»úÖÐÈ±ÉÙ´Ë¿ò¼Ü,¿ÉÄÜ»áµ¼ÖÂ²å¼þÎÞ·¨Õý³£¹¤×÷¡ù**
 
-æ’ä»¶ç•Œé¢
+**Èç¹ûÀñÎï½Ï¶à£¬±¾²å¼þ»á´óÁ¿¶ÁÐ´Ó²ÅÌ**
+
+²å¼þ½çÃæ
 ---
-<img class="shadow" src="https://www.danmuji.org/resource/GiftStatistics/preview.png" alt="æ’ä»¶ç•Œé¢" />
+<img class="shadow" src="https://www.danmuji.org/resource/GiftStatistics/preview.png" alt="²å¼þ½çÃæ" />
 
-æ’ä»¶åŠŸèƒ½
+²å¼þ¹¦ÄÜ
 ---
-- ç»Ÿè®¡æ”¶åˆ°çš„ç¤¼ç‰©
-- è¾“å‡ºæ–‡æœ¬åˆ°æ’ä»¶ç›®å½•ä¸‹
-- æ”¯æŒä»Žå½“å‰å¼¹å¹•å§¬è¿žæŽ¥çš„ç›´æ’­é—´çš„è®¸æ„¿ç“¶å¯¼å…¥ç¤¼ç‰©
+- Í³¼ÆÊÕµ½µÄÀñÎï
+- Êä³öÎÄ±¾µ½²å¼þÄ¿Â¼ÏÂ
+- Ö§³Ö´Óµ±Ç°µ¯Ä»¼§Á¬½ÓµÄÖ±²¥¼äµÄÐíÔ¸Æ¿µ¼ÈëÀñÎï
 
-å®‰è£…æ–¹æ³•
+°²×°·½·¨
 ---
-ä¸‹è½½æ–‡ä»¶ï¼Œè§£åŽ‹åŽç›´æŽ¥æ”¾è¿› `æˆ‘çš„æ–‡æ¡£\å¼¹å¹•å§¬\plugins\` é‡å¯å¼¹å¹•å§¬å³å¯ã€‚
+ÏÂÔØÎÄ¼þ£¬½âÑ¹ºóÖ±½Ó·Å½ø `ÎÒµÄÎÄµµ\µ¯Ä»¼§\plugins\` ÖØÆôµ¯Ä»¼§¼´¿É¡£
 
-ä½¿ç”¨è¯´æ˜Ž
+Ê¹ÓÃËµÃ÷
 ---
-ç¬¬ä¸€æ¬¡è¿è¡Œæ—¶ä¼šåˆ›å»ºç›®å½• `æˆ‘çš„æ–‡æ¡£\å¼¹å¹•å§¬\plugins\ç¤¼ç‰©ç»Ÿè®¡\` ã€‚
+µÚÒ»´ÎÔËÐÐÊ±»á´´½¨Ä¿Â¼ `ÎÒµÄÎÄµµ\µ¯Ä»¼§\plugins\ÀñÎïÍ³¼Æ\` ¡£
 
-æœ¬æ’ä»¶æ‰€æœ‰åŠŸèƒ½å‡åœ¨ç®¡ç†é¡µé¢ä¸­ï¼Œç§»æ­¥è‡³ **æ’ä»¶** é€‰é¡¹å¡å¹¶å³é”®æœ¬æ’ä»¶ï¼Œç‚¹å‡» **ç®¡ç†** å³å¯ã€‚
+±¾²å¼þËùÓÐ¹¦ÄÜ¾ùÔÚ¹ÜÀíÒ³ÃæÖÐ£¬ÒÆ²½ÖÁ **²å¼þ** Ñ¡Ïî¿¨²¢ÓÒ¼ü±¾²å¼þ£¬µã»÷ **¹ÜÀí** ¼´¿É¡£
 
-åœ¨â€œç¤¼ç‰©é…ç½®â€çª—å£ä¸­ï¼Œâ€œæ˜¾ç¤ºçš„å­—ç¬¦ä¸²â€å³æ’ä»¶å‘æ–‡æœ¬è¾“å‡ºçš„å†…å®¹ã€‚æ”¯æŒä»¥ä¸‹å˜é‡
--%name% ç¤¼ç‰©åç§°(å¦‚æžœå¡«äº†â€œè‡ªå®šä¹‰æ˜¾ç¤ºåç§°â€åˆ™æ˜¾ç¤ºâ€œè‡ªå®šä¹‰æ˜¾ç¤ºåç§°â€)
--%count% å·²ç»Ÿè®¡çš„ä¸ªæ•°
--%tcount% ç›®æ ‡ä¸ªæ•°
+ÔÚ¡°ÀñÎïÅäÖÃ¡±´°¿ÚÖÐ£¬¡°ÏÔÊ¾µÄ×Ö·û´®¡±¼´²å¼þÏòÎÄ±¾Êä³öµÄÄÚÈÝ¡£Ö§³ÖÒÔÏÂ±äÁ¿
+- %name% ÀñÎïÃû³Æ(Èç¹ûÌîÁË¡°×Ô¶¨ÒåÏÔÊ¾Ãû³Æ¡±ÔòÏÔÊ¾¡°×Ô¶¨ÒåÏÔÊ¾Ãû³Æ¡±)
+- %count% ÒÑÍ³¼ÆµÄ¸öÊý
+- %tcount% Ä¿±ê¸öÊý
 
-ä¸¾ä¸ªä¾‹å­ï¼šâ€œæ˜¾ç¤ºçš„å­—ç¬¦ä¸²â€ä¸­å¡«å†™â€œæˆ‘çš„å°ç›®æ ‡:%name%:%count%/%tcount%â€
-æ’ä»¶ä¼šè¾“å‡ºä¸ºâ€œæˆ‘çš„å°ç›®æ ‡:è¾£æ¡:1/100â€
+¾Ù¸öÀý×Ó£º¡°ÏÔÊ¾µÄ×Ö·û´®¡±ÖÐÌîÐ´¡°ÎÒµÄÐ¡Ä¿±ê:%name%:%count%/%tcount%¡±
+²å¼þ»áÊä³öÎª¡°ÎÒµÄÐ¡Ä¿±ê:À±Ìõ:1/100¡±
 
-åœ¨ä¸»ç•Œé¢ä¸­çš„â€œå…¨å±€è¾“å‡ºâ€ï¼Œä½¿ç”¨â€œ%ç¤¼ç‰©åç§°%â€æ¥è¡¨ç¤ºæŒ‡å®šç¤¼ç‰©çš„è¾“å‡ºï¼ˆé€‚ç”¨äºŽå¤šä¸ªç¤¼ç‰©è¾“å‡ºåœ¨ä¸€ä¸ªæ–‡ä»¶ä¸­çš„æƒ…å†µï¼‰
-ä¸¾ä¸ªä¾‹å­: â€œæˆ‘çš„æ‰€æœ‰å°ç›®æ ‡:%è¾£æ¡%;%äº¿åœ†%â€
-æ’ä»¶ä¼šè¾“å‡ºä¸ºâ€œæˆ‘çš„æ‰€æœ‰å°ç›®æ ‡:è¾£æ¡:1/100äº¿åœ†:1/100â€
+ÔÚÖ÷½çÃæÖÐµÄ¡°È«¾ÖÊä³ö¡±£¬Ê¹ÓÃ¡°%ÀñÎïÃû³Æ%¡±À´±íÊ¾Ö¸¶¨ÀñÎïµÄÊä³ö£¨ÊÊÓÃÓÚ¶à¸öÀñÎïÊä³öÔÚÒ»¸öÎÄ¼þÖÐµÄÇé¿ö£©
+¾Ù¸öÀý×Ó: ¡°ÎÒµÄËùÓÐÐ¡Ä¿±ê:%À±Ìõ%;%ÒÚÔ²%¡±
+²å¼þ»áÊä³öÎª¡°ÎÒµÄËùÓÐÐ¡Ä¿±ê:À±Ìõ:1/100ÒÚÔ²:1/100¡±
 
-**æ”¯æŒæ¢è¡Œ**; å¦‚æžœè¿˜æœ‰ä¸æ‡‚ï¼Œå¯ä»¥åœ¨å¼¹å¹•å§¬ç¾¤å†…æ‰¾847529602
+**ËùÓÐÎÄ±¾¾ù»áÊä³öÖÁ`µ¯Ä»¼§\plugins\ÀñÎïÍ³¼Æ\ÀñÎïÊä³öÎÄ±¾`ÏÂ£¬¿É¸ù¾ÝÐèÒª×ÔÐÐÔÚOBS»òÖ±²¥¼§ÖÐÌí¼ÓÎÄ×ÖÀ´Ô´**
 
-æ›´æ–°æ—¥å¿—
+**Ö§³Ö»»ÐÐ**; Èç¹û»¹ÓÐ²»¶®£¬¿ÉÒÔÔÚµ¯Ä»¼§ÈºÄÚÕÒ847529602
+
+¸üÐÂÈÕÖ¾
 ---
-- 2018-02-11 12:50:02 åˆç‰ˆå‘å¸ƒ
+- 2018-02-17 20:27:35 ÐÞ¸´ÁËË«»÷×´Ì¬»á±¨´íµÄÎÊÌâ£»ÐÞ¸´ÁËÎÄ¼þ¼ÐÎ»ÖÃ²»¶ÔµÄÎÊÌâ¡£
+- 2018-02-11 12:50:02 ³õ°æ·¢²¼
