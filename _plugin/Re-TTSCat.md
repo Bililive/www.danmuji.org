@@ -5,12 +5,11 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 2.0.0.2
-plugin_update_datetime: 2018-02-11 21:00:00 +0800
+plugin_version: 2.0.0.3
+plugin_update_datetime: 2018-03-17 22:30:00 +0800
 plugin_update_desc: |-
-  [/] 解决了一些用户遇到的问题。
-  [+] 自动更新检查可以干活了。
-  [+] 处理逻辑优化，感谢队长（
+  [/] 解决 SSL/TLS 安全隧道问题。
+  [+] 解决未知类型事件导致的出错问题。
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
