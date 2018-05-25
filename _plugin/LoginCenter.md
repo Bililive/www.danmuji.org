@@ -5,12 +5,10 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 登录中心
 plugin_desc: 登录B站账号供其他插件使用
-plugin_version: 1.1.0
-plugin_update_datetime: 2017-07-12 00:01:30 +0800
+plugin_version: 1.2.0
+plugin_update_datetime: 2017-05-25 00:00:00 +0800
 plugin_update_desc: |-
-  旧版“弹幕发送”和“登录中心”已不能使用
-  请更新到最新版本
-  弹幕发送插件: https://www.danmuji.cn/plugins/SendDanmaku
+  修复登录后不显示用户信息的问题
 plugin_dllink: /resource/LoginCenter/LoginCenter.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
