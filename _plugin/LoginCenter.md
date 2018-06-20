@@ -5,13 +5,17 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 登录中心
 plugin_desc: 登录B站账号供其他插件使用
-plugin_version: 1.2.0
-plugin_update_datetime: 2018-05-25 00:00:00 +0800
+plugin_version: 1.2.1
+plugin_update_datetime: 2018-06-20 00:00:00 +0800
 plugin_update_desc: |-
-  修复登录后不显示用户信息的问题
+  修复登录后插件崩溃的问题
 plugin_dllink: /resource/LoginCenter/LoginCenter.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
+
+## 提醒
+
+> 2018.06.20 旧版本插件在登录账号后会崩溃，请更新插件到最新版本 1.2.1
 
 <img class="shadow" src="https://www.danmuji.cn/resource/LoginCenter/1.png" alt="插件界面" />
 
