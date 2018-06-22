@@ -21,6 +21,8 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 ※支持使用**登录中心**插件登录
 
+**本插件正在进行重写，需要一些时间**
+
 插件界面
 ---
 <img class="shadow" src="https://www.danmuji.cn/resource/AdminHelper/preview.png" alt="插件界面" />
