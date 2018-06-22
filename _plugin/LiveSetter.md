@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.1.7.1
-plugin_update_datetime: 2017-11-29 12:30:57 +0800
+plugin_version: 1.1.8
+plugin_update_datetime: 2018-06-22 20:28:12 +0800
 plugin_update_desc: |-
-  稳定性更新
+  修复了获取Rtmp信息失败的问题
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -18,6 +18,8 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 **※本插件依赖.NET Framework 4.6.2框架,若你的计算机中缺少此框架,可能会导致插件无法正常工作※**
 
 ※支持使用**登录中心**插件登录
+
+**本插件正在进行重写，需要一些时间**
 
 插件界面
 ---
@@ -56,6 +58,7 @@ Todo
 
 更新日志
 ---
+- 2018-06-22 20:28:12 修复了获取Rtmp信息失败的问题
 - 2017-11-29 12:30:57 稳定性更新
 - 2017-11-21 12:20:36 更新接口解决404问题
 - 2017-11-12 15:10:35 更改基本信息的提交方法，以避免简介被打乱的情况
