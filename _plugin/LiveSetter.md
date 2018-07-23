@@ -5,10 +5,10 @@ auther: Executor丶
 plugin_author: Executor丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
-plugin_version: 1.2.1
-plugin_update_datetime: 2018-07-15 13:30:37 +0800
+plugin_version: 1.2.3
+plugin_update_datetime: 2018-07-23 22:40:14 +0800
 plugin_update_desc: |-
-  修复了执行开播操作时，原先已提交更改的分区被旧分区覆盖的问题
+  修复了当封禁列表长度大于等于10的时候，程序无限请求的问题
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -52,6 +52,8 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2018-07-23 22:40:14 修复了当封禁列表长度大于等于10的时候，程序无限请求的问题
+- 2018-07-15 14:33:09 修复了点击“打开你的直播间”按钮后弹幕姬崩溃的问题
 - 2018-07-15 13:30:37 修复了执行开播操作时，原先已提交更改的分区被旧分区覆盖的问题
 - 2018-06-29 23:35:33 插件重写完成。修复了封禁用户无效的问题。添加了“向作者反馈”的按钮
 - 2018-06-22 20:28:12 修复了获取Rtmp信息失败的问题
