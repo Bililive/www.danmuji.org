@@ -6,7 +6,7 @@ plugin_author: 宅急送队长
 plugin_name: 点歌姬 (v3)
 plugin_desc: 用弹幕来播放歌曲吧
 plugin_version: 3.0.3
-plugin_update_datetime: 2018-11-24 18:00:00 +0800
+plugin_update_datetime: 2018-12-01 18:00:00 +0800
 #plugin_update_desc: |-
 #  扒拉扒拉扒拉测试
 #  测试，测试测试。
