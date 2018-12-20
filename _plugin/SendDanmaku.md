@@ -5,10 +5,10 @@ auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
 plugin_desc: 在弹幕姬中快速发送弹幕
-plugin_version: 1.1.5
-plugin_update_datetime: 2018-12-18 23:19:00 +0800
+plugin_version: 1.1.6
+plugin_update_datetime: 2018-12-20 18:31:00 +0800
 plugin_update_desc: |-
-  更新内容：解决无法发送弹幕的问题
+  更新内容：解决因csrf校验失败导致弹幕姬崩溃的问题
 plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
