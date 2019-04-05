@@ -4,11 +4,11 @@ title: 更多日志
 auther: 起名废丶西井
 plugin_author: 起名废丶西井
 plugin_name: 更多日志
-plugin_desc: 更详细的日志记录
-plugin_version: 1.0.0
-plugin_update_datetime: 2018-12-12 15:16:26 +0800
+plugin_desc: 管理弹幕姬日志输出行为
+plugin_version: 1.1.0
+plugin_update_datetime: 2019-04-06 04:05:30 +0800
 plugin_update_desc: |-
-  发布初版
+  重构插件。解决了“显示更多信息”不受插件状态管制的问题。新增“不输出礼物信息”和“屏蔽x级以下用户的发言”功能。新增检查插件更新的功能。所有系统通知在侧边栏的字体均改为红色。
 plugin_dllink: /resource/ExtendLogging/ExtendLogging.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -17,9 +17,14 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 **※本插件依赖.NET Framework 4.5.2框架,若你的计算机中缺少此框架,可能会导致插件无法正常工作※**
 
-插件界面
+插件效果、界面
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/ExtendLogging/preview.png" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/ExtendLogging/preview.png" alt="插件效果" />
+<img class="shadow" src="https://www.danmuji.cn/resource/ExtendLogging/preview2.png" alt="插件界面" />
+
+插件源代码
+---
+[点此跳转](https://github.com/Executor-Cheng/ExtendLogging)
 
 插件功能
 ---
@@ -44,10 +49,13 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 本插件所有功能开关均在管理页面中，移步至 **插件** 选项卡并右键本插件，点击 **管理** 即可。
 
+“显示更多信息”:将显示
+- 主播开启/关闭了房间禁言
+- 用户被房管禁言
+- 主播开播/下播
+- 直播间被警告/切断/关闭
+
 更新日志
 ---
+- 2019-04-06 04:05:30 重构插件。解决了“显示更多信息”不受插件状态管制的问题。新增“不输出礼物信息”和“屏蔽x级以下用户的发言”功能。新增检查插件更新的功能。所有系统通知在侧边栏的字体均改为红色。
 - 2018-12-12 15:16:26 发布初版
-
-插件源代码
----
-https://github.com/Executor-Cheng/ExtendLogging
