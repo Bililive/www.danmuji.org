@@ -5,10 +5,10 @@ auther: 起名废丶西井
 plugin_author: 起名废丶西井
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.0.0
-plugin_update_datetime: 2019-05-05 22:54:55 +0800
+plugin_version: 1.0.1
+plugin_update_datetime: 2019-05-06 00:45:23 +0800
 plugin_update_desc: |-
-  插件初版喵
+  解决了没有安装登录中心时，插件无法正常加载的问题
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
@@ -51,4 +51,5 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2019-05-06 00:45:23 解决了没有安装登录中心时，插件无法正常加载的问题
 - 2019-05-05 22:44:36 发布初版
