@@ -1,14 +1,14 @@
 ---
-hide: true
+hide: false
 title: 弹幕发送
 auther: 宅急送队长
 plugin_author: 宅急送队长
 plugin_name: 弹幕发送
 plugin_desc: 在弹幕姬中快速发送弹幕
-plugin_version: 1.1.6
-plugin_update_datetime: 2018-12-20 18:31:00 +0800
+plugin_version: 1.1.7
+plugin_update_datetime: 2019-05-30 00:00:00 +0800
 plugin_update_desc: |-
-  更新内容：解决因csrf校验失败导致弹幕姬崩溃的问题
+  整体更新
 plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
@@ -40,4 +40,3 @@ plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
 在弹幕发送框中，  
 按 `回车` 发送弹幕  
 按 `上` `下` 键可以翻弹幕发送历史
-
