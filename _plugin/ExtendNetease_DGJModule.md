@@ -1,5 +1,5 @@
 ---
-hide: true
+hide: false
 title: 本地网易云喵块
 auther: 起名废丶西井
 plugin_author: 起名废丶西井
