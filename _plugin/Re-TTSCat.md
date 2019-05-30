@@ -1,5 +1,5 @@
 ---
-hide: true
+hide: false
 title: 'Re: TTSCat'
 auther: Elepover
 plugin_author: Elepover

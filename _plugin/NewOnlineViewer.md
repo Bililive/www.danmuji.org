@@ -1,5 +1,5 @@
 ---
-hide: true
+hide: false
 title: 新·在线人数视窗
 auther: ConstP
 plugin_author: ConstP
