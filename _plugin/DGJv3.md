@@ -1,5 +1,5 @@
 ---
-hide: false
+hide: true
 title: 点歌姬
 auther: 宅急送队长
 plugin_author: 宅急送队长

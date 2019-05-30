@@ -1,5 +1,5 @@
 ---
-#hide: true
+hide: true
 title: 任务栏助手
 auther: Elepover
 plugin_author: Elepover

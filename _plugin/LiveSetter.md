@@ -1,5 +1,5 @@
 ---
-# hide: true
+hide: true
 title: 管理直播间小工具
 auther: Executor丶
 plugin_author: Executor丶

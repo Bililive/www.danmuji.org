@@ -1,5 +1,5 @@
 ---
-# hide: true
+hide: true
 title: 礼物统计
 auther: Executor丶
 plugin_author: Executor丶

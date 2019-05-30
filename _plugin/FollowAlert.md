@@ -1,4 +1,5 @@
 ---
+hide: true
 title: 关注提醒
 auther: 宅急送队长
 plugin_author: 宅急送队长

@@ -1,5 +1,5 @@
 ---
-# hide: true
+hide: true
 title: 房管助手重制版
 auther: 起名废丶西井＆想要一个逗猫棒
 plugin_author: 起名废丶西井＆想要一个逗猫棒

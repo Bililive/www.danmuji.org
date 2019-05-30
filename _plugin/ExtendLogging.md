@@ -1,5 +1,5 @@
 ---
-# hide: true
+hide: true
 title: 更多日志
 auther: 起名废丶西井
 plugin_author: 起名废丶西井

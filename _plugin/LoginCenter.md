@@ -1,5 +1,5 @@
 ---
-#hide: true
+hide: true
 title: 登录中心
 auther: 宅急送队长
 plugin_author: 宅急送队长
