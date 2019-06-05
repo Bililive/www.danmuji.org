@@ -1,0 +1,13 @@
+- name: 插件目录
+  link: /plugins/
+  icon: fa-list
+
+- name: 录播姬
+  link: https://rec.danmuji.org
+  icon: fa-camera
+  target: _blank
+
+- name: 直播简介生成器
+  link: http://hn.cabbagelol.net/blog
+  icon: fa-globe
+  target: _blank
