@@ -5,17 +5,17 @@ auther: 起名废丶西井
 plugin_author: 起名废丶西井
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.0.6
-plugin_update_datetime: 2019-06-08 21:11:18 +0800
+plugin_version: 1.0.8
+plugin_update_datetime: 2019-06-09 22:00:00 +0800
 plugin_update_desc: |-
-  解决了某些电脑ManagedOpenSSL初始化失败的问题（原理：改用BouncyCastle进行RSA_NoPadding加密）。
+  解决无法显示歌词的问题。
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 
 若插件有任何问题，亦或对插件有建议，请至任何一个弹幕姬群里私聊我(847529602)
 
-# **请务必仔细阅读使用说明！！！**
+# **请务必仔细阅读使用说明喵！！！**
 **※本插件依赖点歌姬插件※**
 
 插件界面
@@ -52,6 +52,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2019-06-09 22:00:00 解决无法显示歌词的问题。
 - 2019-06-08 21:11:18 解决了某些电脑ManagedOpenSSL初始化失败的问题（原理：改用BouncyCastle进行RSA_NoPadding加密）。
 - 2019-05-15 16:40:57 解决了网易云返回文件类型大小写不同导致插件无法正确辨识mp3文件的问题。
 - 2019-05-11 23:19:25 将所有的整型属性转为长整形以避免数值过大产生异常。当插件试图下载非mp3格式的单曲时，将终止操作（由于点歌姬不支持非mp3格式播放）。添加了下载链接缓存。
