@@ -5,7 +5,7 @@ auther: 起名废丶西井
 plugin_author: 起名废丶西井
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.0.8
+plugin_version: 1.0.7
 plugin_update_datetime: 2019-06-09 22:00:00 +0800
 plugin_update_desc: |-
   解决无法显示歌词的问题。
