@@ -5,22 +5,24 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 任务栏助手
 plugin_desc: 将弹幕姬隐藏到任务栏通知区域
-plugin_version: 1.0.0.0
-plugin_update_datetime: 2018-02-10 21:00:00 +0800
+plugin_version: 2.0.1.13
+plugin_update_datetime: 2019-06-16 16:00:00 +0800
 #plugin_update_desc:
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/DMJ_Taskbar/DMJ_Taskbar.zip
 plugin_dlnote: 注意看使用说明唷。
 ---
 
-方便在任务栏上直接管理弹幕姬。
+方便将弹幕姬隐藏到通知区域。
 
-目前不需要任何配置。
+目前插件不需要任何配置文件。
 
 - 启用插件 = 开启任务栏图标；
 - 停用插件 = 关闭任务栏图标。
 
 双击任务栏图标以显示/隐藏弹幕姬窗口。
+
+右键单击任务栏图标可查看更多选项。
 
 # 安装
 
