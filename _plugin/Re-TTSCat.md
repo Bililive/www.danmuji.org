@@ -5,25 +5,13 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.0.1.216
-plugin_update_datetime: 2019-06-13 20:30:00 +0800
+plugin_version: 3.0.3.217
+plugin_update_datetime: 2019-06-28 22:20:00 +0800
 plugin_update_desc: |-
-  是 Re: TTSDanmaku v3!
-  [!] 高考结束，高三党生活结束，继续更新！
-  [/] 彻底重写插件后端。
-  [/] 现在弹幕字数同时有上限和下限限制可选。
-  [/] 插件不会在弹幕姬启动和退出时搞事了。
-  [-] 砍掉了托盘图标，请改用任务栏助手。
-  [+] 提高稳定性。
-  [+] 框架自带语音引擎可用咯！
-  [+] 被砍掉的音量控制回归！
-  [+] 现在可以以一定概率朗读文本。
-  [+] 支持处理更多事件类型并自定义朗读内容。
-  [/] 更新插件依赖。
-  [/] 对话框不会再阻塞主线程了。
-  [/] 修复了更新窗口的排版问题。
-  [/] 关于按钮指向的链接不再 404 了。
-  [/] 一点点 UI 修复。
+  [+] 现在可以在高级选项中重置全部设置了
+  [+] 补齐工具提示（将鼠标指针悬浮在相应设置项上可获取帮助）
+  [/] 修正一部分 typo
+  [+] 修正控件排版
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
