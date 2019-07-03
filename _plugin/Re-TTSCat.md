@@ -5,24 +5,21 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.0.3.217
-plugin_update_datetime: 2019-06-28 22:20:00 +0800
+plugin_version: 3.0.4.220
+plugin_update_datetime: 2019-07-03 11:10:00 +0800
 plugin_update_desc: |-
-  [+] 现在可以在高级选项中重置全部设置了
-  [+] 补齐工具提示（将鼠标指针悬浮在相应设置项上可获取帮助）
-  [/] 修正一部分 typo
-  [+] 修正控件排版
+  [+] 现已新增粤语 TTS 引擎
+  [-] 减少日志输出内容，如需详细日志输出请启用调试模式
+  [/] 一些用户体验优化
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
-
-# Re: TTSCat
 
 **将你收到的：弹幕！礼物！统统合成为语音，读出来！**
 
 ## 功能
 
-- 3 个语音合成引擎
+- 4 个语音合成引擎
 - 自定义高达 7 种类型的事件读出内容
 - 支持以一定概率读出文本
 - 支持排队读出文本
@@ -35,36 +32,36 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 
 ## 安装使用
 
-1. ↖ 下载插件。
-2. 解压，得到 `Re_TTSCat.dll` 以及 `NAudio.dll`。
-3. 将这两个文件全部丢到弹幕姬插件目录里面（不要分开）。
-4. 启动/重启弹幕姬。
-5. 启动插件。
+1. ↖ 下载插件
+2. 解压，得到 `Re_TTSCat.dll` 以及 `NAudio.dll`
+3. 将这两个文件全部丢到弹幕姬插件目录里面（不要分开）
+4. 启动/重启弹幕姬
+5. 启动插件
 
 ## 注意事项
 
 - 插件依赖框架版本: .NET Framework 4.6.1 [(在这里下载)](https://www.microsoft.com/zh-cn/download/details.aspx?id=49982)
 - 首次启动插件，将会在插件文件夹创建 `Re-TTSCat` 目录。
-- 您可以自行修改配置文件，但请不要在插件运行过程中操作。
+- 您可以自行修改配置文件，但请不要在插件运行过程中进行修改。
 - 若丢失 `NAudio.dll` 文件，插件将会显示警告信息并拒绝执行任何操作，直到您补回 `NAudio.dll` 文件并重启弹幕姬。
 - 启用调试模式会解锁一些好玩的东西，但是请注意：**后果自负**。
 
 ## 文件结构
 
 ```
-- Plugins           [D] 弹幕姬插件目录。
-|-- Re_TTSCat.dll   [F] 插件本体。
-|-- NAudio.dll      [F] NAudio 播放库。
-|-- Re-TTSCat       [D] 插件配置目录。
-| |-- Config.json   [F] 插件配置文件。
-| |-- Cache         [D] 缓存文件夹。
-| | |-- TTS*.mp3    [F] Google/百度 TTS 引擎生成的临时文件。
-| | |-- TTS*.wav    [F] .NET 框架引擎生成的临时文件。
+- Plugins           [D] 弹幕姬插件目录
+|-- Re_TTSCat.dll   [F] 插件本体
+|-- NAudio.dll      [F] NAudio 播放库
+|-- Re-TTSCat       [D] 插件配置目录
+| |-- Config.json   [F] 插件配置文件
+| |-- Cache         [D] 缓存文件夹
+| | |-- TTS*.mp3    [F] Google/百度 TTS 引擎生成的临时文件
+| | |-- TTS*.wav    [F] .NET 框架引擎生成的临时文件
 ```
 
 ## 运行截图
 
-![管理](/resource/Re-TTSCat/conf.png)
+![管理](/resource/Re-TTSCat/settings.png)
 
 ![过滤设置](/resource/Re-TTSCat/blocking.png)
 
