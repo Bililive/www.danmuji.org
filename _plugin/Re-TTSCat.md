@@ -5,12 +5,10 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.0.4.220
-plugin_update_datetime: 2019-07-03 11:10:00 +0800
+plugin_version: 3.0.5.223
+plugin_update_datetime: 2019-07-08 22:20:00 +0800
 plugin_update_desc: |-
-  [+] 现已新增粤语 TTS 引擎
-  [-] 减少日志输出内容，如需详细日志输出请启用调试模式
-  [/] 一些用户体验优化
+  [/] 已修复礼物读出问题，感谢各位老爷不杀之恩
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
