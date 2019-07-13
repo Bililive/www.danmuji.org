@@ -5,10 +5,10 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.0.5.223
-plugin_update_datetime: 2019-07-08 22:20:00 +0800
+plugin_version: 3.0.6.230
+plugin_update_datetime: 2019-07-13 18:00:00 +0800
 plugin_update_desc: |-
-  [/] 已修复礼物读出问题，感谢各位老爷不杀之恩
+  [/] 系统框架引擎可以更改语音速度啦！
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
@@ -41,7 +41,7 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 - 插件依赖框架版本: .NET Framework 4.6.1 [(在这里下载)](https://www.microsoft.com/zh-cn/download/details.aspx?id=49982)
 - 首次启动插件，将会在插件文件夹创建 `Re-TTSCat` 目录。
 - 您可以自行修改配置文件，但请不要在插件运行过程中进行修改。
-- 若丢失 `NAudio.dll` 文件，插件将会显示警告信息并拒绝执行任何操作，直到您补回 `NAudio.dll` 文件并重启弹幕姬。
+- 若丢失 `NAudio.dll` 文件，插件将会显示警告信息并拒绝启动，直到您补回 `NAudio.dll` 文件并重启弹幕姬。
 - 启用调试模式会解锁一些好玩的东西，但是请注意：**后果自负**。
 
 ## 文件结构
