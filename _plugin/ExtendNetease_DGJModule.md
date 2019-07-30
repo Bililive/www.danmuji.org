@@ -10,6 +10,7 @@ plugin_update_datetime: 2019-06-24 18:46:00 +0800
 plugin_update_desc: |-
   解决私人歌单无法添加的问题。由于目前点歌姬自加载插件的功能尚未实现，每次重启弹幕姬时，需要用户自行再添加歌单。
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
+plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 

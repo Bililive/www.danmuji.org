@@ -10,6 +10,7 @@ plugin_update_datetime: 2019-07-20 11:43:42 +0800
 plugin_update_desc: |-
   紧急修复连接直播间时，非目标直播间的房管时弹幕姬崩溃的问题。上个版本的更新内容：重新启用“自动封禁”功能（现为实验性功能）。手动封禁允许精确到秒，时间范围为“1分钟-30天”，并将保留上次封禁的时长以供下次使用。优化了封禁列表的加载速度。解决了插件加载旧的配置文件失败的问题。
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
+plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
 

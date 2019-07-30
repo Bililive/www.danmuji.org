@@ -10,6 +10,7 @@ plugin_update_datetime: 2018-12-07 14:01:59 +0800
 plugin_update_desc: |-
   修改获取房管列表的方法，使其能获取到至多100名房管。禁用用户名与密码的登录功能（B站已禁用旧登录接口的调用）。当超管警告直播间时，插件将会输出到弹幕姬日志界面
 plugin_dllink: /resource/LiveSetter/LiveSetter.zip
+plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 

@@ -10,6 +10,7 @@ plugin_update_datetime: 2019-06-16 21:00:00 +0800
 #plugin_update_desc:
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/DMJ_Taskbar/DMJ_Taskbar.zip
+plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 注意看使用说明唷。
 ---
 
