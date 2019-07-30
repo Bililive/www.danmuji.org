@@ -1,8 +1,8 @@
 ---
 hide: false
 title: 管理直播间小工具
-auther: Executor丶
-plugin_author: Executor丶
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 管理直播间小工具
 plugin_desc: 管理你的直播间
 plugin_version: 1.2.6

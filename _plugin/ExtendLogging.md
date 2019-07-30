@@ -1,8 +1,8 @@
 ---
 hide: false
 title: 更多日志
-auther: 起名废丶西井
-plugin_author: 起名废丶西井
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 更多日志
 plugin_desc: 管理弹幕姬日志输出行为
 plugin_version: 1.1.2

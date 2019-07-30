@@ -1,8 +1,8 @@
 ---
 hide: false
 title: 礼物统计
-auther: Executor丶
-plugin_author: Executor丶
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 礼物统计
 plugin_desc: 统计收到的礼物,可存为文本供直播软件使用
 plugin_version: 1.0.1

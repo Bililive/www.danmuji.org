@@ -1,8 +1,8 @@
 ---
 # hide: true
 title: 本地网易云喵块
-auther: 起名废丶西井
-plugin_author: 起名废丶西井
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
 plugin_version: 1.0.8
