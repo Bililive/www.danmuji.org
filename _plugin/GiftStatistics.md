@@ -1,8 +1,8 @@
 ---
 hide: false
 title: 礼物统计
-auther: Executor丶
-plugin_author: Executor丶
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 礼物统计
 plugin_desc: 统计收到的礼物,可存为文本供直播软件使用
 plugin_version: 1.0.1
@@ -10,6 +10,7 @@ plugin_update_datetime: 2018-02-17 20:27:35 +0800
 plugin_update_desc: |-
   修复了双击状态会报错的问题；修复了文件夹位置不对的问题。
 plugin_dllink: /resource/GiftStatistics/GiftStatistics.zip
+plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 

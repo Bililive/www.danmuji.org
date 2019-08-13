@@ -10,6 +10,7 @@ plugin_update_datetime: 2019-05-30 00:00:00 +0800
 plugin_update_desc: |-
   整体更新
 plugin_dllink: /resource/SendDanmaku/SendDanmaku.zip
+plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 

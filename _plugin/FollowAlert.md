@@ -10,6 +10,7 @@ plugin_update_datetime: 2017-11-23 19:21:00 +0800
 plugin_update_desc: |-
   因为B站接口变动，旧插件已不能使用，请升级到最新版本。
 plugin_dllink: /resource/FollowAlert/FollowAlert1.2.1.zip
+plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 #plugin_dlnote: 并不需要下载说明
 ---
 ### 安装使用方法
