@@ -1,8 +1,8 @@
 ---
 hide: false
 title: 更多日志
-auther: 起名废丶西井
-plugin_author: 起名废丶西井
+auther: 西井丶
+plugin_author: 西井丶
 plugin_name: 更多日志
 plugin_desc: 管理弹幕姬日志输出行为
 plugin_version: 1.1.2
@@ -10,6 +10,7 @@ plugin_update_datetime: 2019-04-07 12:17:46 +0800
 plugin_update_desc: |-
   已使用弹幕姬最新SDK里的“DanmakuModel.RawDataJToken”属性，请更新弹幕姬至最新版本，否则无法使用此插件。现在弹幕姬主界面的“屏蔽刷屏(α)”功能会被插件正确处理。删除了不必要的判断逻辑以解决当“显示等级”、“显示勋章”、“显示头衔”均未勾选且插件已启用时，弹幕姬无弹幕输出的情况。去掉了屏蔽等级实时更改的特性以避免神奇的异常产生（关掉管理窗口即可使更改生效）。
 plugin_dllink: /resource/ExtendLogging/ExtendLogging.zip
+plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 

@@ -11,6 +11,7 @@ plugin_update_desc: |-
   [+] 启动时将使用异步更新检查，加快启动速度
   [+] 新增用户自定义 TTS 引擎功能
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
+plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
 

@@ -28,8 +28,12 @@ layout: null
                         <h4>Windows 7 / 8 / 10</h4>
                         <a class="btn btn-default btn-block" rel="nofollow" href="https://soft.danmuji.org/bilibili_dm/danmuji_setup.exe" onclick="btn_download_onclick()" target="_blank" role="button"><i class="fas fa-download icon-with-text"></i>下载安装包</a>
                         <a class="btn btn-default btn-block" href="/plugins/" role="button"><i class="fas fa-list icon-with-text"></i>插件列表</a>
+                        <a class="btn btn-default btn-block" onclick="btn_show_contact()" role="button"><i class="fas fa-comment icon-with-text"></i>反馈 & 联系</a>
                         <p>注：“弹幕姬”就是“弹幕姬”。<br>“弹幕姬”不是直播弹幕工具的统称。</p>
                         <script>
+                            function btn_show_contact() {
+                                swal({title: '联系方式', confirmButtonText: '关闭', html: decode("=cmcv5SaqVXbuFGZAt2YhJGZlVmZgALilb7uk7qgpHIgpH5jljpop76lpPbhlj7mnb5ukbbhl7jcixzZy9mLppWdt5WYkBUZ0l2ciV2dgALilb7uk7qgpHIgpH5jljpop76lpn5qnHZvnzKnm7jcixTbvNmLslWYtdGQ1lGb5B3bjBCsIWut7SurCmegAmekPWOmimurXm+k9SOrcaOrnWel5Weu8WuPyJGPPyb55ap57O75UGI6Eq55FCI6c2L52uL5S+o5+mo5i2Z61Ga62uL5S+o5oyZ53+K6YKa6ueZ62uL5S+o5")})
+                            }
                             function btn_download_onclick() {
                                 ga('send',
                                     {
