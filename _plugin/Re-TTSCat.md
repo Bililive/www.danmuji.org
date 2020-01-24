@@ -5,11 +5,13 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.0.9.271
-plugin_update_datetime: 2019-12-26 13:20:00 +0800
+plugin_version: 3.1.10.282
+plugin_update_datetime: 2020-01-24 23:20:00 +0800
 plugin_update_desc: |-
-  [+] NAudio.dll 现无需放置于插件文件夹中，插件启动过程中将自动处理
-  [!] 如果您从 3.0.8.240 或更低版本更新而来，请务必删除原有的 NAudio.dll 文件
+  [/] 已修复在未启动插件时连接导致的闪退问题
+  [+] 增加插件统计功能，可在管理面板查看
+  [/] 提高稳定性
+  [>] 新年快乐！
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
