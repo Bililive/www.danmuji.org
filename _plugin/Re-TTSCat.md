@@ -5,13 +5,11 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.1.10.282
-plugin_update_datetime: 2020-01-24 23:20:00 +0800
+plugin_version: 3.1.11.293
+plugin_update_datetime: 2020-01-31 15:45:00 +0800
 plugin_update_desc: |-
-  [/] 已修复在未启动插件时连接导致的闪退问题
-  [+] 增加插件统计功能，可在管理面板查看
-  [/] 提高稳定性
-  [>] 新年快乐！
+  这次没更新什么东西，祝各位保重身体
+  [+] 管理面板的一些小更改
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
