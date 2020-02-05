@@ -5,19 +5,13 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.1.12.301
-plugin_update_datetime: 2020-02-03 14:20:00 +0800
+plugin_version: 3.1.13.309
+plugin_update_datetime: 2020-02-05 18:50:00 +0800
 plugin_update_desc: |-
-  [+] 管理面板显示插件启用状态
-  [+] 可手动清理缓存
-  [+] 可关闭连接/断开事件读出
-  [+] 可在断开连接时取消未朗读语音
-  [+] 调试模式中可手动取消所有未朗读语音
-  [+] 可禁用消息下载（鼠标悬浮于消息区域以获取更多信息）
-  [/] 解决非调试模式部分引擎刷日志的问题
-  [/] 解决支持库重复载入问题
-  [/] 修复关于链接 404
-  [/] 修改系统权限信息
+  [√] 捕捉全部错误
+  [√] 解决插件停用时仍然会处理连接/断开的问题
+  [√] 解决部分引擎在调试模式禁用的情况下刷日志的问题
+  [√] 提高稳定性
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
