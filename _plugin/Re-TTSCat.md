@@ -12,6 +12,7 @@ plugin_update_desc: |-
   [√] 解决插件停用时仍然会处理连接/断开的问题
   [√] 解决部分引擎在调试模式禁用的情况下刷日志的问题
   [√] 提高稳定性
+  [!] 使用点歌姬崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
@@ -44,6 +45,10 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 
 ## 注意事项
 
+**使用点歌姬导致崩溃的用户请看第 1/2 条**
+
+- **插件和点歌姬 v2 存在已知兼容性问题，如您加载弹幕姬时载入了点歌姬 v2 将导致弹幕姬崩溃**
+- **[在这里下载点歌姬 v3](/resource/DGJv3/DGJv3.7z)**
 - 插件依赖框架版本: .NET Framework 4.6.1 [(在这里下载)](https://www.microsoft.com/zh-cn/download/details.aspx?id=49982)
 - 缺失 .NET Framework 4.6.1 将导致启动插件时弹幕姬崩溃。
 - 首次启动插件，将会在插件文件夹创建 `Re-TTSCat` 目录。
