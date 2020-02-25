@@ -11,7 +11,7 @@ plugin_update_desc: |-
   [√] 解决和任务栏助手同时工作时在关闭弹幕姬时崩溃的问题
   [!] 使用点歌姬导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
-plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
+plugin_contact: AHch5SetNHdpBEdhN2c0RXLlJHIzeI62uL5uKY6BCY6R+Y53+K6Iaa6N+Y5Wio5YKa6ueZ6Eq552uL5S+o5syp5zWY5Jyp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
 ---
 
