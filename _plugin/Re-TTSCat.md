@@ -5,14 +5,11 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.1.13.309
-plugin_update_datetime: 2020-02-05 18:50:00 +0800
+plugin_version: 3.1.14.311
+plugin_update_datetime: 2020-02-25 16:00:00 +0800
 plugin_update_desc: |-
-  [√] 捕捉全部错误
-  [√] 解决插件停用时仍然会处理连接/断开的问题
-  [√] 解决部分引擎在调试模式禁用的情况下刷日志的问题
-  [√] 提高稳定性
-  [!] 使用点歌姬崩溃的用户请查看插件页面的注意事项
+  [√] 解决和任务栏助手同时工作时在关闭弹幕姬时崩溃的问题
+  [!] 使用点歌姬导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: t92Yus2bvxGd19GQyVmdvBXZsVGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项。
