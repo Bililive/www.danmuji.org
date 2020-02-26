@@ -5,14 +5,16 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.1.15.313
-plugin_update_datetime: 2020-02-25 16:00:00 +0800
+plugin_version: 3.1.16.320
+plugin_update_datetime: 2020-02-26 14:40:00 +0800
 plugin_update_desc: |-
   [i] 未来的更新消息格式将会变更为如下所示：
-  [i] 本版本解决了 4 个问题，未新增功能，推荐尽快更新。
+  [i] 本版本解决了 6 个问题，未新增功能，推荐尽快更新。
   [√][重要] 解决和任务栏助手同时工作时在关闭弹幕姬时崩溃的问题
   [√][重要] 解决未启用插件时点击断开连接导致报错并在此后无法启动插件的问题
   [√][中等] 解决非调试模式随机朗读无效的问题
+  [√][一般] 解决可以打开多个管理窗口的问题
+  [√][一般] 解决管理窗口在关闭弹幕姬后仍然活动且此后关闭管理窗口导致报错的问题
   [√][一般] 减少日志输出量，可启用调试模式查看更多日志
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
