@@ -5,8 +5,8 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 任务栏助手
 plugin_desc: 将弹幕姬隐藏到任务栏通知区域
-plugin_version: 2.0.2.15
-plugin_update_datetime: 2019-06-16 21:00:00 +0800
+plugin_version: 2.0.4.45
+plugin_update_datetime: 2020-03-12 13:00:00 +0800
 #plugin_update_desc:
 #  当次更新介绍写这里，可选
 plugin_dllink: /resource/DMJ_Taskbar/DMJ_Taskbar.zip
@@ -22,6 +22,8 @@ plugin_dlnote: 注意看使用说明唷。
 - 停用插件 = 关闭任务栏图标。
 
 双击任务栏图标以显示/隐藏弹幕姬窗口。
+
+点击状态栏（第一个项目）可切换连接状态。
 
 右键单击任务栏图标可查看更多选项。
 
@@ -45,6 +47,10 @@ plugin_dlnote: 注意看使用说明唷。
 # 更新日志
 
 ```
+v2.0.4.45 2020/03/12
+[+] 可在右键菜单中切换连接状态
+[+] 可隐藏外部链接
+
 v2.0.2.15 2019/06/16
 [+] 新增图标自动变化以显示连接状态
 [+] 新增直播房间显示
