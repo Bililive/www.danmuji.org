@@ -5,19 +5,18 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.1.20.370
-plugin_update_datetime: 2020-03-19 13:15:00 +0800
+plugin_version: 3.2.23.391
+plugin_update_datetime: 2020-03-22 20:30:00 +0800
 plugin_update_desc: |-
-  [i] 未来将进一步扩展自定义 TTS 引擎支持：可选 POST 请求方法及自定义请求头等
-  [i] 本版本解决了 3 个问题，新增了 5 个功能。
-  [+][一般] 自定义 TTS 引擎现已支持 HTTP 基本身份认证
-  [+][一般] 按住 Shift 的同时选择“管理”选项可重置配置
-  [+][一般] 重写调试模式“检查服务器连通性”部分
-  [+][一般] 增加调试模式“关于”页面输出信息
-  [+][一般] 动态管理窗口标题
-  [√][一般] 解决更新窗口在弹幕姬退出后仍保持打开的问题
-  [√][一般] 日志输出优化
-  [√][一般] 启停速度优化
+  [i] 本版本新增了 7 个功能。
+  [+][一般] 自定义 TTS 引擎支持三种 POST 请求 (Alpha)
+  [+][一般] 自定义 TTS 引擎支持添加额外请求头
+  [+][一般] 更清晰的崩溃对话框（希望永远用不着）
+  [+][一般] 可禁用崩溃错误捕捉
+  [+][一般] 自动更新支持库
+  [+][一般] 支持库完整性校验
+  [+][一般] 代码自签名
+  [i] 签名证书指纹: 8b74b37bedcb8f44e856f37f4c5f3ec193e23d01
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: AHch5SetNHdpBEdhN2c0RXLlJHIzeI62uL5uKY6BCY6R+Y53+K6Iaa6N+Y5Wio5YKa6ueZ6Eq552uL5S+o5syp5zWY5Jyp5
@@ -80,6 +79,73 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 ![过滤设置](/resource/Re-TTSCat/blocking.png)
 
 ![高级功能](/resource/Re-TTSCat/advanced-features.png)
+
+## 自定义请求头
+
+示例 JSON 数据:
+
+```json
+[
+  {
+    "Name": "Accept-Encoding",
+    "Value": "gzip"
+  },
+  {
+    "Name": "Cookie",
+    "Value": "logged_in=yes; session=4f5dc1d1-f5bc-47ab-ad0b-f92e498386f3; token=c0b30704-57f0-4f74-ad0b-b6a7c4336b27; tz=Asia%2FShanghai"
+  },
+  {
+    "Name": "DNT",
+    "Value": 1
+  }
+]
+```
+
+## 自定义 POST 数据
+
+通过三种 POST 请求传入以下数据
+
+| 名称 | 内容 |
+|:-----|-----:|
+| `logged_in` | `yes` |
+| `session` | `4f5dc1d1-f5bc-47ab-ad0b-f92e498386f3` |
+| `token` | `c0b30704-57f0-4f74-ad0b-b6a7c4336b27` |
+| `tz` | `Asia/Shanghai` |
+
+### application/x-www-form-urlencoded
+
+直接填入 POST 请求内容，如
+
+`logged_in=yes&session=4f5dc1d1-f5bc-47ab-ad0b-f92e498386f3&token=c0b30704-57f0-4f74-ad0b-b6a7c4336b27&tz=Asia%2FShanghai`
+
+### multipart/form-data
+
+示例 JSON 数据:
+
+```json
+[
+  {
+    "Name": "logged_in",
+    "Value": "eWVz"
+  },
+  {
+    "Name": "session",
+    "Value": "NGY1ZGMxZDEtZjViYy00N2FiLWFkMGItZjkyZTQ5ODM4NmYz"
+  },
+  {
+    "Name": "token",
+    "Value": "YzBiMzA3MDQtNTdmMC00Zjc0LWFkMGItYjZhN2M0MzM2YjI3"
+  },
+  {
+    "Name": "tz",
+    "Value": "QXNpYS9TaGFuZ2hhaQ"
+  }
+]
+```
+
+### text/plain
+
+纯文本，想怎么样就写么样
 
 ## 问题反馈
 
