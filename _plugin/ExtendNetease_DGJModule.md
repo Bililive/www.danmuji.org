@@ -5,19 +5,20 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.0.9
-plugin_update_datetime: 2019-09-16 04:22:00 +0800
+plugin_version: 1.1.0
+plugin_update_datetime: 2020-04-04 18:55:57 +0800
 plugin_update_desc: |-
-  尝试解决无法加载本喵块的问题
+  应该是解决掉了无法加载的问题吧喵。增加一些异常处理代码。
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 
-若插件有任何问题，亦或对插件有建议，请至任何一个弹幕姬群里私聊我(847529602)
+若插件有任何问题，抑或对插件有建议，请直接私聊我(847529602)
 
 # **请务必仔细阅读使用说明喵！！！**
-##**※本插件依赖[点歌姬](https://www.danmuji.org/plugins/DGJv3)插件※**
+# **大部分问题都是自己选错模块或者不装点歌姬v3喵！！**
+##**※本插件依赖[点歌姬(已停止维护)](https://www.danmuji.org/plugins/DGJv3)插件※**
 
 插件界面
 ---
@@ -53,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2020-04-04 18:55:57 应该是解决掉了无法加载的问题吧喵。增加一些异常处理代码。
 - 2019-09-16 04:22:00 尝试解决无法加载本喵块的问题
 - 2019-06-24 18:46:00 解决私人歌单无法添加的问题。由于目前点歌姬自加载插件的功能尚未实现，每次重启弹幕姬时，需要用户自行再添加歌单。
 - 2019-06-09 22:00:00 解决无法显示歌词的问题。
