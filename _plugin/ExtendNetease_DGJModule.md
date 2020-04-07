@@ -22,8 +22,8 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 插件界面
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/ExtendNetease_DGJModule/preview.png" alt="插件界面"/>
-<img class="shadow" src="https://www.danmuji.cn/resource/ExtendNetease_DGJModule/preview2.png"/>
+<img class="shadow" src="https://www.danmuji.org/resource/ExtendNetease_DGJModule/preview.png" alt="插件界面"/>
+<img class="shadow" src="https://www.danmuji.org/resource/ExtendNetease_DGJModule/preview2.png"/>
 
 插件源代码
 ---
