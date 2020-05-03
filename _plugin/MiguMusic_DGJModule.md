@@ -5,10 +5,10 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 咪咕喵块
 plugin_desc: 使用咪咕音乐平台进行点歌~
-plugin_version: 1.0.0
-plugin_update_datetime: 2019-09-16 04:22:00 +0800
+plugin_version: 1.0.1
+plugin_update_datetime: 2020-05-03 14:17:25 +0800
 plugin_update_desc: |-
-  发布初版
+  修复无法点歌的问题。
 plugin_dllink: /resource/MiguMusic_DGJModule/MiguMusic_DGJModule.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -17,11 +17,11 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 若插件有任何问题，亦或对插件有建议，请至任何一个弹幕姬群里私聊我(847529602)
 
 # **请务必仔细阅读使用说明喵！！！**
-##**※本插件依赖[点歌姬](https://www.danmuji.org/plugins/DGJv3)插件※**
+##**※本插件依赖[点歌姬(已停止维护)](https://www.danmuji.org/plugins/DGJv3)插件※**
 
 插件界面
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/MiguMusic_DGJModule/preview.png" alt="插件界面"/>
+<img class="shadow" src="https://www.danmuji.org/resource/MiguMusic_DGJModule/preview.png" alt="插件界面"/>
 
 插件源代码
 ---
@@ -47,4 +47,5 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2020-05-03 14:17:25 修复无法点歌的问题。
 - 2019-09-16 04:22:00 发布初版
