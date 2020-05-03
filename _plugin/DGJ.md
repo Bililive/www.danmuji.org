@@ -1,10 +1,10 @@
 ---
 hide: true
 title: 点歌姬
-auther: 宅急送队长
-plugin_author: 宅急送队长
+auther: 
+plugin_author: 
 plugin_name: 点歌姬
-plugin_desc: 用弹幕来播放歌曲吧
+plugin_desc: 
 plugin_version: 2.0.0
 plugin_update_datetime: 2017-08-04 16:47:00 +0800
 #plugin_update_desc: |-
@@ -15,4 +15,4 @@ plugin_dllink: "about:blank"
 #plugin_dlnote: 看这个页面右侧的使用说明！
 ---
 
-因为没有时间和精力、维护起来太费劲等原因，点歌姬插件已停止维护。
+点歌姬v2已停止维护无法使用，不再提供下载。
