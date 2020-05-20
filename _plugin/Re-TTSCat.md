@@ -5,13 +5,17 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.3.26.410
-plugin_update_datetime: 2020-04-24 10:10:00 +0800
+plugin_version: 3.4.30.450
+plugin_update_datetime: 2020-05-20 23:15:00 +0800
 plugin_update_desc: |-
-  [i] 本版本新增了 2 个功能，修正了 1 个问题。
-  [+] 为自定义读出内容标签页右上角新增帮助入口
-  [+] 支持使用 Windows 自带临时文件夹存放缓存
-  [√] 修正弹幕长度限制字数计算
+  [i] 本版本新增了 3 个功能，修正了 4 个问题。
+  [+] 大幅优化插件内存占用
+  [+] 弹幕姬启动时可自动清理缓存（不影响弹幕姬启动速度）
+  [+] 调试模式可压制日志输出
+  [/] 修正屏蔽设置的 UI 排版
+  [/] 修正 MacType 优化字体后的排版问题
+  [/] 优化稳定性
+  [/] 代码架构优化
   [i] 签名证书指纹: 8b74b37bedcb8f44e856f37f4c5f3ec193e23d01
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
