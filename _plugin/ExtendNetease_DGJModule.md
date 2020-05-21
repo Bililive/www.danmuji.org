@@ -5,10 +5,10 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.1.0
-plugin_update_datetime: 2020-04-04 18:55:57 +0800
+plugin_version: 1.1.1
+plugin_update_datetime: 2020-05-21 21:38:22 +0800
 plugin_update_desc: |-
-  应该是解决掉了无法加载的问题吧喵。增加一些异常处理代码。
+  修复了当登录用户UserId超过Int32.MaxValue时无法登录的问题。添加pdb以确定NullRef在哪一行抛的。
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2020-05-21 21:38:22 修复了当登录用户UserId超过Int32.MaxValue时无法登录的问题。添加pdb以确定NullRef在哪一行抛的。
 - 2020-04-04 18:55:57 应该是解决掉了无法加载的问题吧喵。增加一些异常处理代码。
 - 2019-09-16 04:22:00 尝试解决无法加载本喵块的问题
 - 2019-06-24 18:46:00 解决私人歌单无法添加的问题。由于目前点歌姬自加载插件的功能尚未实现，每次重启弹幕姬时，需要用户自行再添加歌单。
