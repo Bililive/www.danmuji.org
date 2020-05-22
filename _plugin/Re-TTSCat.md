@@ -5,13 +5,15 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.4.31.460
-plugin_update_datetime: 2020-05-21 20:45:00 +0800
+plugin_version: 3.5.40.480
+plugin_update_datetime: 2020-05-22 11:10:00 +0800
 plugin_update_desc: |-
-  [i] 本版本新增了 7 个功能，另有 9 处修改。
+  [i] 本版本新增了 9 个功能，另有 9 处修改。
   [+] 大幅优化插件内存占用
+  [+] 管理面板美化
   [+] 弹幕姬启动时可自动清理缓存（同时不影响弹幕姬启动速度）
   [+] 全新的捐赠窗口
+  [+] 更改的更新窗口
   [+] 支持自动更新管理窗口的插件状态
   [/] 简化管理面板标签页标题
   [/] 优化稳定性
@@ -56,7 +58,7 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 
 1. ↖ 下载插件
 2. 解压，得到 `Re_TTSCat.dll`
-3. 将其丢到弹幕姬插件目录里面
+3. 将其丢到弹幕姬插件目录里面（文档\弹幕姬\Plugins）
 4. 启动/重启弹幕姬
 5. 启动插件
 
