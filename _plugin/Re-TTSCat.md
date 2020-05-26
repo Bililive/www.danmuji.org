@@ -5,11 +5,13 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.5.50.500
-plugin_update_datetime: 2020-05-25 17:15:00 +0800
+plugin_version: 3.6.55.510
+plugin_update_datetime: 2020-05-26 13:00:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966646967
-  [i] 本版本新增了 9 个功能，另有 11 处修改。
+  [i] 本版本新增了 10 个功能，另有 11 处修改。
+  [+] 增加了 9 个可用的 TTS 引擎
+      ↑ 在管理面板选择“百度（高级版）”即可尝试！
   [+] 大幅优化插件内存占用
   [+] 管理面板美化
   [+] 弹幕姬启动时可自动清理缓存（同时不影响弹幕姬启动速度）
@@ -48,8 +50,8 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 
 ![管理面板](/resource/Re-TTSCat/settings.png)
 
-- 6 个语音合成引擎
-- 自定义高达 8 种类型的事件读出内容
+- 15 个语音合成引擎
+- 自定义高达 9 种类型的读出内容
 - 支持以一定概率读出文本
 - 支持排队读出文本
 - 支持离线语音合成引擎（降低网络占用）
