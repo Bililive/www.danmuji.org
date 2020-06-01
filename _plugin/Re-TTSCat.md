@@ -5,8 +5,8 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.7.65.530
-plugin_update_datetime: 2020-05-30 22:15:00 +0800
+plugin_version: 3.8.66.540
+plugin_update_datetime: 2020-06-01 13:30:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966646967
 
@@ -18,6 +18,7 @@ plugin_update_desc: |-
   [+] 允许在弹幕姬启动时自动启动插件
 
   [i] 本版本新增了 2 个功能，另有 2 处修改
+  [+] 短时间内来自同一用户的相同礼物可以自动合并了
   [+] 现在语音朗读音量和弹幕姬进程独立
       不会影响点歌姬了
   [+] 语音朗读音量修改即时生效
@@ -44,6 +45,7 @@ plugin_dlnote: 请在下载前尽可能完整阅读插件说明和注意事项�
 - 自定义高达 **9 种类型**的读出内容
 - 支持以一定概率读出文本
 - 支持排队读出文本
+- 合并刷屏礼物
 - 支持离线语音合成引擎（降低网络占用）
 - 各种各样的弹幕/礼物过滤方法
 
