@@ -1,5 +1,5 @@
 ---
-hide: false
+hide: true
 title: 关注提醒
 auther: 宅急送队长
 plugin_author: 宅急送队长
@@ -13,6 +13,13 @@ plugin_dllink: /resource/FollowAlert/FollowAlert1.2.1.zip
 plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 #plugin_dlnote: 并不需要下载说明
 ---
+
+## 注意
+
+本插件会持续请求B站接口，又因B站使用了屏蔽大量请求的网站防火墙规则，所以很容易导致被B站临时屏蔽IP。因此目前不再推荐使用本插件。
+
+本插件已从插件列表隐藏，但还可以通过链接访问、下载。
+
 ### 安装使用方法
 
 将插件放到 `文档\弹幕姬\Plugins\` 文件夹里  
