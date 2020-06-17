@@ -5,8 +5,8 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.8.72.600
-plugin_update_datetime: 2020-06-16 23:30:00 +0800
+plugin_version: 3.8.73.601
+plugin_update_datetime: 2020-06-17 09:40:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966646967
 
@@ -20,6 +20,7 @@ plugin_update_desc: |-
   [+] 语音答复现在可以答复礼物了
   [+] 语音答复支持通配符
   [+] 支持测试语音答复规则
+  [/] 管理窗口小改动
   [/] 更新窗口和赞助窗口细节修改
 
   [i] 签名证书指纹: 8b74b37bedcb8f44e856f37f4c5f3ec193e23d01
