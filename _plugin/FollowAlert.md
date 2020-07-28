@@ -30,7 +30,7 @@ plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq55
 插件会把关注人的名字显示到弹幕侧边栏。  
 并且写入到文件，供主播展示到直播画面中。每个关注人在文件中保留五秒（直播画面中停留五秒）。
 
-<img class="shadow" src="https://www.danmuji.cn/resource/FollowAlert/pic.png" alt="插件界面" />
+<img class="shadow" src="/resource/FollowAlert/pic.png" alt="插件界面" />
 
 <br/>
 

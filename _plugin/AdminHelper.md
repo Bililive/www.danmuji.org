@@ -23,7 +23,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 插件界面
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/AdminHelper/preview.png" alt="插件界面" />
+<img class="shadow" src="/resource/AdminHelper/preview.png" alt="插件界面" />
 
 插件功能
 ---

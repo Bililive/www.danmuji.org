@@ -14,7 +14,7 @@ plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq55
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 
-<img class="shadow" src="https://www.danmuji.cn/resource/LoginCenter/1.png" alt="插件界面" />
+<img class="shadow" src="/resource/LoginCenter/1.png" alt="插件界面" />
 
 ## 安装插件
 

@@ -1,4 +1,4 @@
-Sitemap: https://www.danmuji.cn/sitemap.xml
+Sitemap: /sitemap.xml
 
 User-agent: *
 Disallow: /api/

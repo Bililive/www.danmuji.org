@@ -13,7 +13,7 @@ plugin_dllink: /resource/Lottery/DMPlugin_Lottery.zip
 plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 #plugin_dlnote: 并不需要下载说明
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/Lottery/GUI.png" alt="界面样子"  />
+<img class="shadow" src="/resource/Lottery/GUI.png" alt="界面样子"  />
 
 <br/>
 

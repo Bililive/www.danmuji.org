@@ -14,13 +14,13 @@ plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq55
 #plugin_dlnote: 请不要二次上传到其他网站谢谢
 ---
 
-<img class="shadow" src="https://www.danmuji.cn/resource/SendDanmaku/1.png" alt="插件界面" />
+<img class="shadow" src="/resource/SendDanmaku/1.png" alt="插件界面" />
 
 <br/>
 
 ## 安装插件
 
-**此插件需要安装 “[登录中心](https://www.danmuji.cn/plugins/LoginCenter)” 插件才能使用**
+**此插件需要安装 “[登录中心](/plugins/LoginCenter)” 插件才能使用**
 安装插件后，在“登录中心”中登录账号
 
 下载插件后解压压缩包，把 `SendDanmaku.dll` 放到插件文件夹。  
