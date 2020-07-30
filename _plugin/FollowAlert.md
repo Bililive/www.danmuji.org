@@ -18,6 +18,8 @@ plugin_contact: ==wZy9mLppWdt5WYkBkbpdWdsBHIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq55
 
 本插件会持续请求B站接口，又因B站使用了屏蔽大量请求的网站防火墙规则，所以很容易导致被B站临时屏蔽IP。因此目前不再推荐使用本插件。
 
+[更多日志插件现已有提醒新关注的功能，点此下载](/plugins/ExtendLogging)
+
 本插件已从插件列表隐藏，但还可以通过链接访问、下载。
 
 ### 安装使用方法
