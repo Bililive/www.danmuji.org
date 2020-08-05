@@ -5,8 +5,8 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.8.74.605
-plugin_update_datetime: 2020-06-18 15:30:00 +0800
+plugin_version: 3.8.75.606
+plugin_update_datetime: 2020-08-05 18:00:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966646967
 
@@ -15,11 +15,9 @@ plugin_update_desc: |-
   [+]           还可以回复礼物哦
   [+] 全自动更新，无需任何用户操作
 
-  [i] 本版本未新增功能，另有 2 处修改
-  [/] 修正礼物合并和语音答复同时启用时崩溃的问题
-  [/] 修正管理面板上特定点击位置可能导致崩溃的问题
+  [i] 本版本未新增功能，另有 1 处修改
+  [/] 紧急修复默认引擎无法出声（下载失败）的问题
 
-  [i] 签名证书指纹: 8b74b37bedcb8f44e856f37f4c5f3ec193e23d01
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
 plugin_contact: AHch5SetNHdpBEdhN2c0RXLlJHIzeI62uL5uKY6BCY6R+Y53+K6Iaa6N+Y5Wio5YKa6ueZ6Eq552uL5S+o5syp5zWY5Jyp5
