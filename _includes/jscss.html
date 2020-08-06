@@ -1,10 +1,9 @@
 <link rel="stylesheet" href="/css/main.css">
 <style>body,h1,h2,h3,h4,h5,html {font-family: "Open Sans", sans-serif}</style>
-<script type="text/javascript" async src='https://www.google-analytics.com/analytics.js'></script>
+<script defer async src='https://www.google-analytics.com/analytics.js'></script>
 <link rel="stylesheet" href="/css/sweetalert2.min.css">
-<script type="text/javascript" async src="/js/core.min.js"></script>
-<script type="text/javascript" async src="/js/sweetalert2.min.js"></script>
-<script type="text/javascript" async src="/js/fontawesome-all.min.js"></script>
+<script async src="/js/sweetalert2.min.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.1.0/js/fontawesome.min.js"></script>
 <script>
 function b64EncodeUnicode(str) {return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,function toSolidBytes(match, p1){return String.fromCharCode('0x'+p1)}))}
 function b64DecodeUnicode(str) {return decodeURIComponent(atob(str).split('').map(function(c) {return '%'+('00'+c.charCodeAt(0).toString(16)).slice(-2);}).join(''))}
