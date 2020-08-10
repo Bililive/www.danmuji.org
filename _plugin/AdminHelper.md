@@ -5,7 +5,7 @@ auther: 西井丶＆想要一个逗猫棒
 plugin_author: 西井丶＆想要一个逗猫棒
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.3.1
+plugin_version: 1.3.1.1
 plugin_update_datetime: 2020-08-10 22:02:13 +0800
 plugin_update_desc: |-
   尝试性修复感谢舰长失败的问题
