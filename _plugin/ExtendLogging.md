@@ -5,10 +5,10 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 更多日志
 plugin_desc: 管理弹幕姬日志输出行为
-plugin_version: 1.1.6
-plugin_update_datetime: 2020-07-30 13:41:22 +0800
+plugin_version: 1.1.7
+plugin_update_datetime: 2020-08-10 21:59:45 +0800
 plugin_update_desc: |-
-  允许输出关注直播间消息和进房消息
+  修复由于嵌套调用Dispatcher.Invoke导致弹幕姬被挂死的问题。修复忽略礼物功能无效的问题。
 plugin_dllink: /resource/ExtendLogging/ExtendLogging.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -60,6 +60,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2020-08-10 21:59:45 修复由于嵌套调用Dispatcher.Invoke导致弹幕姬被挂死的问题。修复忽略礼物功能无效的问题
 - 2020-07-30 13:41:22 允许输出关注直播间消息和进房消息
 - 2020-04-12 14:03:19 少改了一处Invoke
 - 2020-04-11 17:05:04 由于弹幕姬主程序的AddDMText方法签名变更，修改Invoke逻辑中的参数个数以适配。删掉一些多余的属性。消除所有警告和消息。更新引用。更新项目框架版本到4.6.1。

@@ -5,10 +5,10 @@ auther: 西井丶＆想要一个逗猫棒
 plugin_author: 西井丶＆想要一个逗猫棒
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.3.0.1
-plugin_update_datetime: 2020-01-05 13:40:59 +0800
+plugin_version: 1.3.1
+plugin_update_datetime: 2020-08-10 22:02:13 +0800
 plugin_update_desc: |-
-  继续改IL，修复因Cookie失效导致插件无法初始化的问题，修复“向作者反馈”功能无效的问题。上一版更新内容：修复了自动封禁功能收到解禁消息时默默炸掉弹幕姬的问题。修复插件初始化失败的问题。其它问题在1月15号以后再修复（由于源代码在个人笔电上，未能同步到个人PC上，本次更新直接改的IL代码。。）
+  尝试性修复感谢舰长失败的问题
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
@@ -23,7 +23,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 插件界面
 ---
-<img class="shadow" src="/resource/AdminHelper/preview.png" alt="插件界面" />
+<img class="shadow" src="https://www.danmuji.cn/resource/AdminHelper/preview.png" alt="插件界面" />
 
 插件功能
 ---
@@ -56,6 +56,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 更新日志
 ---
+- 2020-08-10 22:02:13 尝试性修复感谢舰长失败的问题
 - 2020-01-05 13:40:59 继续改IL，修复因Cookie失效导致插件无法初始化的问题，修复“向作者反馈”功能无效的问题。
 - 2020-01-02 13:22:10 修复了自动封禁功能收到解禁消息时默默炸掉弹幕姬的问题。修复插件初始化失败的问题。其它问题在1月15号以后再修复（由于源代码在个人笔电上，未能同步到个人PC上，本次更新直接改的IL代码。。）
 - 2019-10-11 13:22:10 修复了上船消息导致插件报错的问题（未将对象引用设置到对象的实例）。其余的新特性先咕咕，最近有点忙。
