@@ -5,10 +5,10 @@ auther: 西井丶＆想要一个逗猫棒
 plugin_author: 西井丶＆想要一个逗猫棒
 plugin_name: 房管助手重制版
 plugin_desc: 房管必备
-plugin_version: 1.3.1.2
-plugin_update_datetime: 2020-08-12 17:06:41 +0800
+plugin_version: 1.3.1.3
+plugin_update_datetime: 2020-08-15 21:45:33 +0800
 plugin_update_desc: |-
-  修复时间区间判断错误的问题
+  没问题了没问题了
 plugin_dllink: /resource/AdminHelper/AdminHelper.zip
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
@@ -56,6 +56,7 @@ plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 
 更新日志
 ---
+- 2020-08-15 21:45:33 没问题了没问题了
 - 2020-08-12 17:06:41 修复时间区间判断错误的问题
 - 2020-08-10 22:02:13 尝试性修复感谢舰长失败的问题
 - 2020-01-05 13:40:59 继续改IL，修复因Cookie失效导致插件无法初始化的问题，修复“向作者反馈”功能无效的问题。
