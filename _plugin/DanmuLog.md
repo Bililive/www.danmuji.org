@@ -13,13 +13,13 @@ plugin_dllink: /resource/DanmuLog/DanmuLog.zip
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载。
 ---
 
-若插件有任何问题，或者有任何建议请在录播姬的群里@Aschin录播站,或发送邮件至354311457@qq.com。
+若插件有任何问题，或者有任何建议请在B站找@Aschin录播站,或发送邮件至354311457@qq.com。
 
 插件页面示例
 ---
-<img class="shadow" src="https://www.danmuji.cn/resource/DanmuLog/Preview1.png" alt="插件界面1" />
-<img class="shadow" src="https://www.danmuji.cn/resource/DanmuLog/Preview2.png" alt="插件界面2" />
-<img class="shadow" src="https://www.danmuji.cn/resource/DanmuLog/Preview3.png" alt="插件界面3" />
+<img class="shadow" src="https://www.danmuji.org/resource/DanmuLog/Preview1.png" alt="插件界面1" />
+<img class="shadow" src="https://www.danmuji.org/resource/DanmuLog/Preview2.png" alt="插件界面2" />
+<img class="shadow" src="https://www.danmuji.org/resource/DanmuLog/Preview3.png" alt="插件界面3" />
 
 ---
 [插件源代码](https://github.com/kawayifork/DanmuLog)
