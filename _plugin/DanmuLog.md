@@ -1,5 +1,5 @@
 ---
-hide: true
+hide: false
 title: 弹幕日志
 auther: 芒小七七七
 plugin_author: 芒小七七七
