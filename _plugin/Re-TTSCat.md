@@ -5,13 +5,16 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.9.91.650
-plugin_update_datetime: 2020-09-09 16:30:00 +0800
+plugin_version: 3.9.92.655
+plugin_update_datetime: 2020-09-20 22:30:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966 646 967
 
-  [+] 修复使用某些引擎合成特定文本时导致无法朗读的问题
-  [/] 去除掉了默认的 3 最低字数限制（现有用户不受影响）
+  [/] 修复了上个版本编码错误导致
+      - .NET 框架引擎
+      - Google 引擎
+      读出“百分号”的问题
+  [/] 小幅度修改界面
 
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
