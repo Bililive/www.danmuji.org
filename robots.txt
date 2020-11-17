@@ -1,8 +1,10 @@
 Sitemap: /sitemap.xml
 
 User-agent: *
-Disallow: /api/
-Disallow: /plugins/example
+Disallow: /admin
+Disallow: /api
+Disallow: /resource
+Disallow: /pics
 
 User-agent: ia_archiver
 Disallow: /
