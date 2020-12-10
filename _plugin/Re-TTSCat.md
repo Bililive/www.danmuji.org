@@ -5,13 +5,12 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.9.93.660
-plugin_update_datetime: 2020-09-20 22:30:00 +0800
+plugin_version: 3.9.95.671
+plugin_update_datetime: 2020-12-10 18:30:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966 646 967
 
-  [+] 可以选择输出音频设备了
-  [/] 小幅度修改界面
+  [+] 可以给 .NET 引擎选择自定义语音包了
 
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
