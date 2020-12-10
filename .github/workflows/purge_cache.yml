@@ -1,0 +1,9 @@
+name: Purge Cache
+on:
+  page_build
+jobs:
+  purge_cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run purge cache script
+        run: eval "$SECRET_PAGE_PURGE_CACHE_SCRIPT" > /dev/null
