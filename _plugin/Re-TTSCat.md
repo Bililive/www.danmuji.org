@@ -5,7 +5,7 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.9.95.671
+plugin_version: 3.9.95.677
 plugin_update_datetime: 2020-12-10 18:30:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966 646 967
