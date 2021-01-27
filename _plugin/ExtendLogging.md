@@ -5,10 +5,10 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 更多日志
 plugin_desc: 管理弹幕姬日志输出行为
-plugin_version: 1.1.8
-plugin_update_datetime: 2020-08-18 16:55:22 +0800
+plugin_version: 1.1.9
+plugin_update_datetime: 2021-01-27 15:55:18 +0800
 plugin_update_desc: |-
-  不玩Dispatcher了, 怕了怕了
+  修复反复请求头衔接口的问题。适配新版弹幕姬
 plugin_dllink: /resource/ExtendLogging/ExtendLogging.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -60,6 +60,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2021-01-27 15:55:18 修复反复请求头衔接口的问题。适配新版弹幕姬
 - 2020-08-18 16:55:22 不玩Dispatcher了, 怕了怕了
 - 2020-08-10 21:59:45 修复由于嵌套调用Dispatcher.Invoke导致弹幕姬被挂死的问题。修复忽略礼物功能无效的问题
 - 2020-07-30 13:41:22 允许输出关注直播间消息和进房消息
