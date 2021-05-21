@@ -5,12 +5,17 @@ auther: Elepover
 plugin_author: Elepover
 plugin_name: 'Re: TTSCat'
 plugin_desc: 直接读出你收到的弹幕和礼物！
-plugin_version: 3.10.1.695
-plugin_update_datetime: 2021-01-08 19:20:00 +0800
+plugin_version: 3.10.2.725
+plugin_update_datetime: 2021-05-21 14:50:00 +0800
 plugin_update_desc: |-
   [i] 欢迎加入插件用户吹水企鹅群 966 646 967
 
-  [+] 支持超管警告读出
+  [+] 允许用户切换 DirectSound 接口输出，如果您使用
+      外置声卡等设备遇到杂音，请尝试禁用此选项
+  [+] 全新设计的关于插件页面
+  [+] 支持正则表达式弹幕屏蔽规则
+  [/] 修正了部分排版和边距问题
+  [-] 去除了内嵌的百度高级版 Key，请自行添加
 
   [!] 使用点歌姬 v2 导致崩溃的用户请查看插件页面的注意事项
 plugin_dllink: /resource/Re-TTSCat/Re-TTSCat.zip
