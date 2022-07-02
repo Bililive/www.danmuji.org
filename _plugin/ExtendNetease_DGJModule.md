@@ -5,10 +5,10 @@ auther: 西井丶
 plugin_author: 西井丶
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.1.2
-plugin_update_datetime: 2020-05-26 14:25:39 +0800
+plugin_version: 1.2.0
+plugin_update_datetime: 2022-07-02 15:27:27 +0800
 plugin_update_desc: |-
-  处理了漏修的两处UserIdParsing。
+  完全重写以修复登录失败、歌单获取失败等问题
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -18,7 +18,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 # **请务必仔细阅读使用说明喵！！！**
 # **大部分问题都是自己选错模块或者不装点歌姬v3喵！！**
-##**※本插件依赖[点歌姬(已停止维护)](https://www.danmuji.org/plugins/DGJv3)插件※**
+## **※本插件依赖[点歌姬(已停止维护)](https://www.danmuji.org/plugins/DGJv3)插件※**
 
 插件界面
 ---
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2022-07-02 15:27:27 完全重写以修复登录失败、歌单获取失败等问题
 - 2020-05-26 14:25:39 处理了漏修的两处UserIdParsing。
 - 2020-05-21 21:38:22 修复了当登录用户UserId超过Int32.MaxValue时无法登录的问题。添加pdb以确定NullRef在哪一行抛的。
 - 2020-04-04 18:55:57 应该是解决掉了无法加载的问题吧喵。增加一些异常处理代码。
