@@ -13,6 +13,9 @@ plugin_dllink: /resource/AdminHelper/AdminHelper.zip
 plugin_dlnote: 直接提取压缩包里的dll放进插件目录即可
 ---
 
+自弹幕姬更新过后, 插件无法正常使用, 作者已经知悉问题, 将在近两天开始重写, 敬请期待
+---
+
 继承了原作的坑:https://tieba.baidu.com/p/4351601474
 
 若插件有任何问题，亦或对插件有建议，请在任何一个弹幕姬群里@我
