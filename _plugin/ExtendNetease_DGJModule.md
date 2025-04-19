@@ -5,16 +5,16 @@ auther: 西井QAQ
 plugin_author: 西井QAQ
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.2.4
-plugin_update_datetime: 2023-11-07 13:50:51 +0800
+plugin_version: 1.2.6
+plugin_update_datetime: 2025-04-18 ‏‎16:16:49 +0800
 plugin_update_desc: |-
-  更换获取用户信息接口以解决无法正确判断用户vip状态的问题。（感谢@卡米雷特 和@某只毛玉 的协助）
+  更换获取用户信息接口以解决登录失败的问题
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
-plugin_contact: =02bj5Scx5CcpZHQkVGdjVGdvJHc4VGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
+plugin_contact: l9WbuUmdpxGQul2Z1xGctRGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 ---
 
-若插件有任何问题，抑或对插件有建议，请直接私聊我(847529602)
+若插件有任何问题，抑或对插件有建议，请发送邮件到 dmplugin@live.moe
 
 # **请务必仔细阅读使用说明喵！！！**
 # **大部分问题都是自己选错模块或者不装[点歌姬v3](https://www.danmuji.org/plugins/DGJv3)喵！！**
@@ -54,6 +54,7 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 更新日志
 ---
+- 2025-04-18 ‏‎16:16:49 更换获取用户信息接口以解决登录失败的问题
 - 2023-11-07 13:50:51 更换获取用户信息接口以解决无法正确判断用户vip状态的问题。（感谢@卡米雷特 和@某只毛玉 的协助）
 - 2023-10-10 20:31:52 更换搜索歌曲接口, 以避免时不时搜索失败的问题
 - 2022-08-03 14:22:57 修复获取歌单时只能获取前20首的问题。修复具有vip身份时无法点vip相关歌曲的问题。初步修复下载歌曲时返回403的问题
