@@ -5,10 +5,10 @@ auther: 西井QAQ
 plugin_author: 西井QAQ
 plugin_name: 本地网易云喵块
 plugin_desc: 可以添加歌单和登录以享受高品质音乐喵
-plugin_version: 1.2.7
-plugin_update_datetime: 2025-04-28 ‏‎16:30:24 +0800
+plugin_version: 1.2.8
+plugin_update_datetime: 2025-05-12 ‏‎12:24:43 +0800
 plugin_update_desc: |-
-  解决新的登录失败的问题;解决检查登录状态失败的问题
+  为二维码登录需要滑条验证码的情况增加提示
 plugin_dllink: /resource/ExtendNetease_DGJModule/ExtendNetease_DGJModule.zip
 plugin_contact: l9WbuUmdpxGQul2Z1xGctRGIwiY52uL5uKY6BCY6R+Y53+K6YKa6ueZ6Eq552uL5S+o5syp5
 plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
@@ -52,8 +52,16 @@ plugin_dlnote: 只在弹幕姬官网提供下载,请勿转载
 
 右键登录按钮可以注销网易云账号
 
+Cookie登录方法
+---
+打开 [网易云官网](https://music.163.com/), 按下F12打开开发人员工具, 按F5刷新后按下图顺次操作以复制 Cookie
+<img class="shadow" src="https://www.danmuji.org/resource/ExtendNetease_DGJModule/fk163.png"/>
+**注意, Cookie字符串比较长, 请使用滚轮向下滑动以复制完整**
+粘贴进喵块的Cookie登录窗口内文本框后点确认即可完成登录
+
 更新日志
 ---
+- 2025-05-12 ‏‎12:24:43 为二维码登录需要滑条验证码的情况增加提示
 - 2025-04-28 ‏‎16:30:24 解决新的登录失败的问题;解决检查登录状态失败的问题
 - 2025-04-18 ‏‎16:16:49 更换获取用户信息接口以解决登录失败的问题
 - 2023-11-07 13:50:51 更换获取用户信息接口以解决无法正确判断用户vip状态的问题。（感谢@卡米雷特 和@某只毛玉 的协助）
